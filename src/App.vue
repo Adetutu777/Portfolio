@@ -122,8 +122,13 @@
       </div>
     </div>
     
-     <div class="container">
-    <h1 class=" pt-5 latest text-center">Latest Blog Post</h1>
+   
+
+  <div class="container  mb-4 ">
+  <div class="row about-me-sect">
+  <div class="col-md-12">
+    <div clss="card">
+      <h1 class=" pt-5 latest text-center">Latest Blog Post</h1>
     <div class="row text-white" v-for= "data in myBlog" :key="data.id">
       <div class="col-md-12 p-3 text-center" >
       <div class="text-white">
@@ -131,8 +136,11 @@
         {{data.description}}
       </div>
       </div>
+      </div>
     </div>
-    
+  </div>
+  >
+</div>
   </div>
 
          <div class="container pt-5 about-me-sect">
