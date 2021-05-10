@@ -1,72 +1,50 @@
 <template>
 <section class="info">
-    <div id="app">
-  
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light" >
-      <router-link class="navbar-brand text-white" href="#" to="/">Adetutu</router-link>
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border:1px solid red;">
- 
-    <ul class="navbar-nav mr-auto" >
-    </ul>
-    <form class="form-inline  my-2 my-lg-0" >
-      <ul class="navbar-nav mr-auto text-white">
-      <li class="nav-item active">
-      <router-link class="nav-link text-white" to="/">Home</router-link>
-      </li>
-      <li class="nav-item">
-       <router-link class="nav-link text-white" to="/">About</router-link>
-      </li>
-      <li class="nav-item">
-       <router-link class="nav-link text-white" to="/">Blog</router-link>
-      </li>
-      <li class="nav-item text-white">
-       <router-link class="nav-link text-white" to="/">Contact</router-link>
-      </li>
-      <li class="nav-item ">
-       <router-link class="nav-link text-white" to="/">
-       <i class="fab fa-linkedin "></i>
-       </router-link>
-      </li>
-      <li class="nav-item">
-       <router-link class="nav-link text-white" to="/">
-        <i class="fab fa-linkedin "></i>
-       </router-link>
-      </li>
-      <li class="nav-item">
-       <router-link class="nav-link text-white" to="/">
-         <i class="fab fa-github"></i>
-       </router-link>
-      </li>
-      
-    </ul>
-    </form>
-  </div>
+    <div id="app">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+	<a class="navbar-brand" href="">Ade<b>tutu</b></a>  		
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+		<span class="navbar-toggler-icon text-white"><img src="../src/assets/menu2.png" alt=""></span>
+	</button>
+	<!-- Collection of nav links, forms, and other content for toggling -->
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start" >
+		<div class="navbar-nav">
+		
+			<a href="#about-about" class="nav-item nav-link text-white">About</a>			
+			<a href="#help-with" class="nav-item nav-link text-white">Services</a>			
+		
+			<a href="#" class="nav-item nav-link active ">Blog</a>
+			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
+        </div>
+		<div class="navbar-nav ml-auto social">
+      <div class="all-soc">
+			<a href="https://www.linkedin.com/in/adetutu-gbangbola-05a48070/" class="nav-item nav-link soc-link"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/Adetutu777" class="nav-item nav-link soc-link"><i class="fa fa-github"></i></a>
+			<a href="https://twitter.com/adetutu2222" class="nav-item nav-link soc-link"><i class="fa fa-twitter"></i></a>
+        </div>
+        </div>		
+	</div>
 </nav>
-    </div>
-  </div>
  
   <router-view/>
 
-
+  
   <!-- Bio -->
     <div class="container" style="padding-top:4rem;">
     <div class="row">
-  <div class="col-md-6" id="pix-first">
+  <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first">
     <div class="card text-white" style="background:#0e141b;">
      
         
-       <p class="about mt-5">
-             Hi, I'm Adetutu, a Frontend Developer!
-           </p>
+       <h1 class="about mt-5 pb-3">
+             Hello, I'm A Frontend Developer.
+           </h1>
 
-           <p class="details ">
-             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quisquam omnis, explicabo molestias optio voluptates at perspiciatis officia numquam eaque tenetur nulla. Atque error labore repellendus. Ex possimus esse id.
+           <p class="details pb-3 pt-3">
+            I am Adetutu Gbangbola, I create <br> responsive websites & web Applications.
+             Innovation is  <br> my  Passion.
            </p>
         
       <a href="">
@@ -74,11 +52,11 @@
         </a>
     </div>
   </div>
-  <div class="col-md-6" id="text-sec">
+  <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec">
     <div class="card" style="background:#0e141b;">
+    
+         <img class="pix mx-auto " src="../src/assets/img3.jpg" alt="Omooba">
      
-         <img class="pix mx-auto pb-4" src="../img1.jpg" alt="Omooba">
-       
         
      
     </div>
@@ -89,75 +67,81 @@
     </div>
 
   
-    <div class="container">
-      <h4 class="know-more mb-5 can-help">I can help you with</h4>
-      <div class="row ml-0" stle="text-align: justify;">
-        <div class="col-md-4">
-          <h5 class=" pt-3 know-more">Software development</h5>
-        <p class="p-details">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam ipsam animi ipsa cupiditate beatae modi sint ipsum illo est?</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class=" pt-3 know-more">Software development</h5>
-        <p class="p-details" style="color:whitesmoke;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ut, non similique provident voluptatem obcaecati earum? Fuga omnis adipisci hic.</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class=" pt-3 know-more">Software development</h5>
-       <p class="p-details">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde blanditiis explicabo doloribus distinctio laborum labore, perferendis aperiam nesciunt eligendi fuga.</p>
-        </div>
-      </div>
+    <div class="container" id="help-with">
+      <h1 class="know-more mb-4 can-help">I can help you with</h1>
 
-      <div class="row   ml-0" stle="text-align: justify;">
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-md-5">
-          <h5 class=" pt-3 know-more">Software development</h5>
-       <p class="p-details">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat eveniet libero sed voluptas pariatur fugit dolores, id debitis neque?</p> 
-        </div>
-        <div class="col-md-5">
-          <h5 class=" pt-3 know-more">Software development</h5>
-        <p class="p-details">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatibus cumque maiores. Suscipit dolorum possimus doloribus tempora aspernatur sequi doloremque hic unde.</p>
-        </div>
-        <div class="col-md-1"></div>
+     <div class="row help-row">
+  <div class="col-md-4">
+    <div class="card text-white  border-each mb-3" style="background:none">
+      <div class="card-body ">
+        <h3 class="card-title know-more">Web Design</h3>
+        <p class="card-text text-text"> I create responsive web application with beautiful user expereience just as seen on the design wireframe</p>
       </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card text-white  border-each mb-3" style="background:none">
+      <div class="card-body ">
+        <h3 class="card-title know-more">Technical Writing</h3>
+        <p class="card-text text-text">My passion for web development has helped bring out the writing skills in me, I love to write as I learn new things while coding</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card text-white  border-each mb-3" style="background:none">
+       <div class="card-body ">
+        <h3 class="card-title know-more">Web Design</h3>
+        <p class="card-text text-text">I create responsive web application with beautiful user expereience just as seen on the design wireframe</p>
+      </div>
+    </div>
+  </div>
+ 
+</div>
     </div>
     
    
 
-  <div class="container  mb-4 ">
-  <div class="row about-me-sect">
-  <div class="col-md-12">
-    <div clss="card">
-      <h1 class=" pt-5 latest text-center">Latest Blog Post</h1>
-    <div class="row text-white" v-for= "data in myBlog" :key="data.id">
-      <div class="col-md-12 p-3 text-center" >
+
+         <div class="container mb-5 mt-5" >
+          <h1 class=" pb-5  latest text-center">Latest Blog Post</h1>
+                    <div class="row pb-5 pt-3 mb-2" style="border: 5px solid #192430">
+             
+              <div class="col-md-12">
+                <div class="cad about-me px-4 pt-4 pb-3 mb-3" >
+                
+                  
+            <div class="row text-white"  v-for= "data in myBlog" :key="data.id">
+      <div class="col-md-12 pt-4 pb-0 text-center" style="font-size:1.3rem" >
       <div class="text-white">
       <h3 class="text-white">{{data.title}}</h3>
         {{data.description}}
       </div>
       </div>
       </div>
-    </div>
-  </div>
-  >
-</div>
-  </div>
+                </div>
+              </div>
+            </div>
 
-         <div class="container pt-5 about-me-sect">
+      
+      </div>
+
+
+        
+         <div class="container pt-5 about-me-sect" id="about-about">
                     <div class="row">
               <div class="col-md-8">
                 <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
-                 <h5 class="know-more mt-4 pb-2" >About Me</h5>
-            <p class="text-white pb-3 " >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt at molestiae reiciendis autem nam! Sit corrupti labore mollitia repellat, unde praesentium tempore hic expedita eum, minima repellendus aspernatur incidunt nobis nulla ea amet delectus voluptas maiores totam quisquam dignissimos. Repudiandae enim nostrum doloremque quos sequi unde. Veniam dolores, vel optio perspiciatis cupiditate hic nesciunt facere qui debitis odio fuga commodi aperiam itaque eius sapiente omnis earum eligendi voluptatibus excepturi minus quidem et culpa! Vero voluptatum corporis quaerat ut impedit doloribus ratione deleniti voluptas eos recusandae dignissimos numquam cumque obcaecati quisquam reiciendis fugit est, neque sint nesciunt hic repellat id blanditiis! Ipsam cupiditate sequi praesentium, exercitationem id ipsa consectetur labore natus adipisci, maiores harum eaque dolorum eligendi nesciunt corporis tempore! Eius assumenda dolorem, quam aperiam nostrum quis dolore officia natus expedita at iure facilis officiis ullam architecto.</p>
+                 <h3 class="know-more mt-4 pb-4" >About Me</h3>
+            <p class="text-white pb-4 pt-0 my-details " >I am Adetutu Gbangbola, a confident, reliable and enthusiastic individual, with passion for software development I have a BSc. degree in Computer Science, with hands-on experience using HTML, Css, Js. to create and implement web applications.  </p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="cad about-me px-4 pt-4 pb-3 mb-3" >
-                  <h5 class="know-more mt-4 pb-2">Projects and Opportunity am interested in</h5>
-           <div class="text-white">
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, assumenda.</p>
-             <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque esse libero quo!</p>
+                  <h3 class="know-more mt-0 pb-2">Projects and Opportunities am interested in</h3>
+           <div class="text-white my-details">
+             <p>Web development.</p>
+             <p>Web development</p>
+            
            </div>
                 </div>
               </div>
@@ -172,11 +156,11 @@
           </div>
 
           <div class="col-md-4">
-             <div class="px-4 py-2 " id="aa">
-            <h5 class="know-more mt-4 pb-2 ">Favourite Tools</h5>
-            <i class="fab fa-html5 soc-icon"></i>
+             <div class="px-4 py-2 mt-0 " id="aa">
+            <h5 class="know-more mt-3 pb-2 ">Favourite Tools</h5>
+            <i class="fab fa-html5 soc-icon pb-4"></i>
             <i class="fab fa-css3 soc-icon" ></i>
-            <i class="fab fa-sass soc-icon"></i> <br>
+            <i class="fab fa-sass soc-icon"></i> 
             <i class="fab fa-vuejs soc-icon"></i>
             <i class="fab fa-bootstrap soc-icon"></i>
             <i class="fab fa-js soc-icon"></i>
@@ -186,12 +170,12 @@
         </div>
       </div>
 
-            <div class="container">
-        <div class="row pb-5" style="padding-top:5rem;">
+            <div class="container" id="my-contact">
+        <div class="row pb-5 last-sec" style="padding-top:5rem;">
           <div class="col-md-6 contact-more">
-            <h5 class="know-more">Want to Know More</h5>
-            <p class="text-white">
-            What to know more about my design process? Have an <br> exciting  project that could use my help? Drop me a <br> line and let's chat!</p>
+            <h4 class="know-more pb-4">Want to Know More</h4>
+            <p class="text-white my-details">
+            What to know more about me? Have an <br> exciting  project that could use my help? <br> Drop me a  line and let's chat!</p>
           </div>
           <div class="col-md-6 pt-5">
             
@@ -220,6 +204,8 @@
           </div>
         </div>
       </div>
+        </div>
+        </div>
   </section>
 
 
@@ -255,38 +241,22 @@ export default {
 
 
 <style scoped>
+
 .info{
     font-family: 'Lato', sans-serif;
     background:#0e141b;
 }
 
+.all-soc{
+display: flex;
 
-#nav {
-  padding: 30px;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-active .router-link-exact-active .nav-link  {
-  color: #42b983;
-  background: red;
-  border: 1px solid red;
-}
-
 .pix{
-width: 50%;
-height: 10%;
-border-radius: 150%;
+width: 60%;
+border-radius: 50%;
 }
 
-.about{
- 
-  font-size: 2rem;
-  font-weight: bold;
-}
+
 .about-me-sect{
 
   background:#192430;
@@ -300,30 +270,47 @@ border-radius: 150%;
 }
 
 .details{
- 
-  font-size: 1.3rem;
+
+  font-size: 1.9rem;
   line-height: 1.4;
   
 }
 
 .details-two{
-  color: wheat;
+  color: rgb(245, 222, 179);
 }
 
 .latest{
-    color: wheat;
+   color: rgb(245, 222, 179);
     
+}
+
+.GIT:hover{
+border: 1px solid  rgb(250, 237, 214);
+color: palegoldenrod;
+background: inherit;
+
+}
+.sub-btn:hover{
+border: 1px solid  rgb(250, 237, 214);
+color: palegoldenrod;
+background: inherit;
+
 }
 
 .GIT, 
 .sub-btn{
-  background: wheat;
+  background:  rgb(245, 222, 179);
   font-size: 1.5rem;
   text-decoration: none;
   color:#0e141b;
-  font-weight: 500;
-  border: 1px solid wheat;
+  font-weight: 600;
+  border: 1px solid  rgb(250, 237, 214) ;
   border-radius: 0.3rem 1rem 0.3rem 1rem;
+  transition: 0.5s ease;
+}
+.sub-btn{
+padding: .3rem 2.5rem .3rem 2.5rem;
 }
 
 
@@ -333,8 +320,28 @@ border-radius: 150%;
 }
 
 .can-help h3{
-  color: wheat;
+  color: rgb(245, 222, 179);
 
+}
+
+.text-text{
+font-size: 1.3rem;
+}
+
+.border-each{
+border: 5px solid #192430;
+padding: 1rem;
+border-radius: 1rem;
+
+}
+
+.help-row{
+padding: 2rem 0 7rem 0;
+}
+
+.about{
+color:rgb(250, 237, 214) ;
+font-size: 3rem;
 }
 
 .about-me,
@@ -344,6 +351,12 @@ border-radius: 150%;
   
 }
 
+.my-details{
+font-size: 1.5rem;
+line-height: 1.5;
+text-align: justify;
+}
+
 #aa{
  
   margin-top: -5rem;
@@ -351,9 +364,9 @@ border-radius: 150%;
 }
 
 .soc-icon{
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: .8rem;
-  color: rgb(141, 111, 54);
+  color: rgb(236, 161, 22);
 }
 
 .location{
@@ -363,6 +376,7 @@ border-radius: 150%;
 
 .know-more{
 color: rgb(248, 234, 206);
+font-size: 1.8rem;
 }
 .contact-more{
   padding-top: 8rem;
@@ -377,6 +391,97 @@ color: rgb(248, 234, 206);
     
      margin-top: 1rem;
    }
+
+   .last-sec{
+     padding-top: -12rem;
+     
+   }
+   .all-soc{
+   display: flex;
+   }
  }
+
+
+ .form-inline {
+	display: inline-block;
+}
+.navbar-header.col {
+	padding: 0 !important;
+}	
+.navbar {		
+  padding: 2rem 1rem 0 1rem;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.nav-link {
+	margin: 0 8px;
+  color: white;
+  font-size: 1.1rem;
+ 
+  
+ 
+}
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	color: #555;
+	padding-left: 0;
+	font-size: 25px;
+	padding-right: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar .navbar-brand b {
+	font-weight: bold;
+	color: #eb5844;
+}
+.navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
+	color: #f08373 !important;
+}
+
+
+
+
+.navbar .nav-item i {
+	font-size: 18px;
+  color: white;
+
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .nav-item.show > a {
+	background: none !important;
+}
+
+.navbar .navbar-form {
+	margin-right: 0;
+	margin-left: 0;
+	border: 0;
+
+}
+@media (min-width: 992px){
+	.form-inline .input-group {
+		width: 250px;
+		margin-right: 30px;
+	}
+}
+@media (max-width: 991px){
+	.form-inline {
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+	.input-group {
+		width: 100%;
+	}
+ 
+}
 </style>
 
