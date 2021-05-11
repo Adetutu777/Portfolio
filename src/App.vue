@@ -415,7 +415,7 @@ color: rgb(248, 234, 206);
   
    .all-soc{
    display: flex;
-  border: 1px solid red;
+  justify-content: center;
   
 
   
