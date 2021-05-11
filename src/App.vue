@@ -140,7 +140,7 @@
 
         
                   <div class="container pt-5  about-me-sect" id="about-about">
-                              <div class="row px-4">
+                              <div class="row px-1">
                         <div class="col-md-8">
                           <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
                           <h3 class="know-more mt-4 pb-4" >About Me</h3>
