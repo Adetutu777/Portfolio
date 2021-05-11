@@ -9,7 +9,7 @@
 		<span class="navbar-toggler-icon text-white"><img src="../src/assets/menu2.png" alt=""></span>
 	</button>
 	<!-- Collection of nav links, forms, and other content for toggling -->
-	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start" >
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start my-nav" >
 		<div class="navbar-nav">
 		
 			<a href="#about-about" class="nav-item nav-link text-white">About</a>			
@@ -18,10 +18,11 @@
 			<a href="#" class="nav-item nav-link active ">Blog</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
         </div>
-		<div class="navbar-nav ml-auto social">
-      <div class="all-soc">
-			<a href="https://www.linkedin.com/in/adetutu-gbangbola-05a48070/" class="nav-item nav-link soc-link"><i class="fab fa-linkedin"></i></a>
-			<a href="https://github.com/Adetutu777" class="nav-item nav-link soc-link"><i class="fa fa-github"></i></a>
+		<div class="navbar-nav ml-auto social ">
+      <div class="all-soc my-soc-nav mt-2 text-center">
+			<a href="https://www.linkedin.com/in/adetutu-gbangbola-05a48070/" class="nav-item nav-link soc-link"><i class="fab fa-linkedin pr-3 ">
+      </i></a>
+			<a href="https://github.com/Adetutu777" class="nav-item nav-link soc-link"><i class="fa fa-github pr-3"></i></a>
 			<a href="https://twitter.com/adetutu2222" class="nav-item nav-link soc-link"><i class="fa fa-twitter"></i></a>
         </div>
         </div>		
@@ -32,143 +33,154 @@
 
   
   <!-- Bio -->
-    <div class="container" style="padding-top:4rem;">
-    <div class="row">
-  <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first">
-    <div class="card text-white" style="background:#0e141b;">
-     
-        
-       <h1 class="about mt-5 pb-3">
-             Hello, I'm A Frontend Developer.
-           </h1>
+              <div class="container" style="padding-top:4rem;">
+              <div class="row">
+            <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first">
+              <div class="card text-white" style="background:#0e141b;">
+              
+                  
+                <h1 class="about mt-5 pb-3">
+                      Hello, I'm A Frontend Developer.
+                    </h1>
 
-           <p class="details pb-3 pt-3">
-            I am Adetutu Gbangbola, I create <br> responsive websites & web Applications.
-             Innovation is  <br> my  Passion.
-           </p>
-        
-      <a href="">
-          <button class="mt-4 GIT px-4 py-2 mb-5">Get in touch</button>
-        </a>
-    </div>
-  </div>
-  <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec">
-    <div class="card" style="background:#0e141b;">
-    
-         <img class="pix mx-auto " src="../src/assets/img3.jpg" alt="Omooba">
-     
-        
-     
-    </div>
-  </div>
-</div>
+                    <p class="details pb-3 pt-3">
+                      I am Adetutu Gbangbola, I create <br> responsive websites & web Applications.
+                      Innovation is  <br> my  Passion.
+                    </p>
+                  
+                <a href="#my-contact">
+                    <button class="mt-4 GIT px-4 py-2 mb-5">Get in touch</button>
+                  </a>
+              </div>
+            </div>
+            <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec">
+              <div class="card" style="background:#0e141b;">
+              
+                  <img class="pix mx-auto " src="../src/assets/img3.jpg" alt="Omooba">
+              
+                  
+              
+              </div>
+            </div>
+          </div>
 
 
-    </div>
+              </div>
 
-  
-    <div class="container" id="help-with">
-      <h1 class="know-more mb-4 can-help">I can help you with</h1>
+            
+              <div class="container" id="help-with">
+                <h1 class="know-more mb-4 can-help">I can help you with</h1>
 
-     <div class="row help-row">
-  <div class="col-md-4">
-    <div class="card text-white  border-each mb-3" style="background:none">
-      <div class="card-body ">
-        <h3 class="card-title know-more">Web Design</h3>
-        <p class="card-text text-text"> I create responsive web application with beautiful user expereience just as seen on the design wireframe</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card text-white  border-each mb-3" style="background:none">
-      <div class="card-body ">
-        <h3 class="card-title know-more">Technical Writing</h3>
-        <p class="card-text text-text">My passion for web development has helped bring out the writing skills in me, I love to write as I learn new things while coding</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card text-white  border-each mb-3" style="background:none">
-       <div class="card-body ">
-        <h3 class="card-title know-more">Web Design</h3>
-        <p class="card-text text-text">I create responsive web application with beautiful user expereience just as seen on the design wireframe</p>
-      </div>
-    </div>
-  </div>
- 
-</div>
-    </div>
+              <div class="row help-row">
+            <div class="col-md-4">
+            <div class="text-center pb-4 mt-3">
+              <img clas="w-25 " style="width:18%" src="../src/assets/web.svg" alt="Omooba">
+              </div>
+              <div class="card text-white  border-each mb-3" style="background:none">
+                <div class="card-body ">
+                  <h3 class="card-title know-more">Web Development</h3>
+                  <p class="card-text text-text"> Either it's a simple web app or a single web app, get it done with the latest tools and frameworks to build powerful and robust apps.</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-4">
+             <div class="text-center pb-4 mt-2">
+              <img class=" " style="width:20%" src="../src/assets/internet.svg" alt="Omooba">
+              </div>
+              <div class="card text-white  border-each mb-3" style="background:none">
+                <div class="card-body ">
+                  <h3 class="card-title know-more">PSD to Html, Css & Js</h3>
+                  <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive, good to view on devices.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="text-center pb-4 mt-4">
+              <img clss="w-25 " style="width:16%" src="../src/assets/prototype.svg" alt="Omooba">
+              </div>
+              <div class="card text-white  border-each mb-3" style="background:none">
+                <div class="card-body ">
+                  <h3 class="card-title know-more">Technical Writing</h3>
+                  <p class="card-text text-text">My passion for web development has helped bring out the writing skills in me, I love to write as I learn new things while coding</p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+              </div>
     
    
 
 
-         <div class="container mb-5 mt-5" >
-          <h1 class=" pb-5  latest text-center">Latest Blog Post</h1>
-                    <div class="row pb-5 pt-3 mb-2" style="border: 5px solid #192430">
-             
-              <div class="col-md-12">
-                <div class="cad about-me px-4 pt-4 pb-3 mb-3" >
-                
-                  
-            <div class="row text-white"  v-for= "data in myBlog" :key="data.id">
-      <div class="col-md-12 pt-4 pb-0 text-center" style="font-size:1.3rem" >
-      <div class="text-white">
-      <h3 class="text-white">{{data.title}}</h3>
-        {{data.description}}
-      </div>
-      </div>
-      </div>
+                  <div class="container mb-1 mt-1" >
+                    <h1 class=" pb-5  latest text-center">Latest Blog Post</h1>
+                              <div class="row pb-5 pt-3 mb-2" style="border: 5px solid #192430">
+                      
+                        <div class="col-md-12">
+                          <div class="cad about-me px-4 pt-4 pb-3 mb-3" >
+                          
+                            
+                      <div class="row text-white"  v-for= "data in myBlog" :key="data.id">
+                <div class="col-md-12 pt-4 pb-0 text-center" style="font-size:1.3rem" >
+                <div class="text-white">
+                <h3 class="text-white">{{data.title}}</h3>
+                  {{data.description}}
                 </div>
-              </div>
-            </div>
+                </div>
+                </div>
+                          </div>
+                        </div>
+                      </div>
 
-      
-      </div>
+                
+                </div>
 
 
         
-         <div class="container pt-5 about-me-sect" id="about-about">
-                    <div class="row">
-              <div class="col-md-8">
-                <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
-                 <h3 class="know-more mt-4 pb-4" >About Me</h3>
-            <p class="text-white pb-4 pt-0 my-details " >I am Adetutu Gbangbola, a confident, reliable and enthusiastic individual, with passion for software development I have a BSc. degree in Computer Science, with hands-on experience using HTML, Css, Js. to create and implement web applications.  </p>
+                  <div class="container pt-5  about-me-sect" id="about-about">
+                              <div class="row px-4">
+                        <div class="col-md-8">
+                          <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
+                          <h3 class="know-more mt-4 pb-4" >About Me</h3>
+                      <p class="text-white pb-4 pt-0 my-details " >I am Adetutu Gbangbola, a confident, reliable and enthusiastic individual, with passion for software development I have a BSc. degree in Computer Science, with hands-on experience using HTML, Css, Js. to create and implement web applications.  </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="cad about-me px-4 pt-5 pb-3 mb-3" >
+                            <h3 class="know-more mt-0 pb-4">Projects and Opportunities am interested in</h3>
+                    <div class="text-white my-details">
+                      <p>Web development.</p>
+                      <p>Web development</p>
+                      
+                    </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  <div class="row pt-3 pb-5 px-4" style="text-aign: justify;">
+                    <div class="col-md-8 ">
+                    <div class="card about-me px-4 mb-3">
+                      <h5 class="know-more mt-4 pb-2">Current Location</h5>
+                      <p class="location pb-3 pt-1">Lagos, Nigeria</p>
+                    </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="px-4 py-2 mt-0 " id="aa">
+                      <h5 class="know-more mt-3 pb-2 ">Favourite Tools</h5>
+                      <i class="fab fa-html5 soc-icon pb-4"></i>
+                      <i class="fab fa-css3 soc-icon" ></i>
+                      <i class="fab fa-sass soc-icon"></i> <br>
+                      <i class="fab fa-vuejs soc-icon"></i>
+                      <i class="fab fa-bootstrap soc-icon"></i>
+                      <i class="fab fa-js soc-icon"></i>
+
+                    </div>
+                  </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="cad about-me px-4 pt-4 pb-3 mb-3" >
-                  <h3 class="know-more mt-0 pb-2">Projects and Opportunities am interested in</h3>
-           <div class="text-white my-details">
-             <p>Web development.</p>
-             <p>Web development</p>
-            
-           </div>
-                </div>
-              </div>
-            </div>
-
-        <div class="row pt-3 pb-5" style="text-aign: justify;">
-          <div class="col-md-8 ">
-           <div class="card about-me px-4 mb-3">
-            <h5 class="know-more mt-4 pb-2">Current Location</h5>
-            <p class="location pb-3 pt-1">Lagos, Nigeria</p>
-          </div>
-          </div>
-
-          <div class="col-md-4">
-             <div class="px-4 py-2 mt-0 " id="aa">
-            <h5 class="know-more mt-3 pb-2 ">Favourite Tools</h5>
-            <i class="fab fa-html5 soc-icon pb-4"></i>
-            <i class="fab fa-css3 soc-icon" ></i>
-            <i class="fab fa-sass soc-icon"></i> 
-            <i class="fab fa-vuejs soc-icon"></i>
-            <i class="fab fa-bootstrap soc-icon"></i>
-            <i class="fab fa-js soc-icon"></i>
-
-          </div>
-        </div>
-        </div>
-      </div>
 
             <div class="container" id="my-contact">
         <div class="row pb-5 last-sec" style="padding-top:5rem;">
@@ -258,7 +270,7 @@ border-radius: 50%;
 
 
 .about-me-sect{
-
+margin-top: 8rem;
   background:#192430;
 
 }
@@ -281,7 +293,7 @@ border-radius: 50%;
 }
 
 .latest{
-   color: rgb(245, 222, 179);
+  color: rgb(250, 237, 214);
     
 }
 
@@ -374,10 +386,13 @@ text-align: justify;
   color: whitesmoke;
 }
 
+
+
 .know-more{
 color: rgb(248, 234, 206);
-font-size: 1.8rem;
+
 }
+
 .contact-more{
   padding-top: 8rem;
  }
@@ -396,8 +411,23 @@ font-size: 1.8rem;
      padding-top: -12rem;
      
    }
+
+  
    .all-soc{
    display: flex;
+  border: 1px solid red;
+  
+
+  
+   }
+
+   .social{
+   margin: 0 auto;
+   }
+
+   .my-nav,
+   .my-soc-nav{
+   text-align: center;
    }
  }
 
