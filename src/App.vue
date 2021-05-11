@@ -159,7 +159,7 @@
                         </div>
                       </div>
 
-                  <div class="row pt-3 pb-5 px-4" style="text-aign: justify;">
+                  <div class="row pt-3 pb-5 px-1" style="text-aign: justify;">
                     <div class="col-md-8 ">
                     <div class="card about-me px-4 mb-3">
                       <h5 class="know-more mt-4 pb-2">Current Location</h5>
