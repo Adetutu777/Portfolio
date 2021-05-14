@@ -56,7 +56,7 @@
             <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec">
               <div class="card" style="background:#0e141b;">
               
-                  <img class="pix mx-auto " src="../src/assets/img3.jpg" alt="Omooba">
+                  <img class="pix mx-auto " src="../src/assets/img4.jpg" alt="Omooba">
               
                   
               
