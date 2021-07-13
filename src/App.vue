@@ -35,7 +35,8 @@
   <!-- Bio -->
               <div class="container" style="padding-top:4rem;">
               <div class="row">
-            <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first">
+            <!-- <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first"> -->
+            <div class="col-md-6 animate__animated animate__fadeInLeft" id="pix-first">
               <div class="card text-white" style="background:#0e141b;">
               
                   
@@ -53,7 +54,8 @@
                   </a>
               </div>
             </div>
-            <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec">
+            <!-- <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec"> -->
+            <div class="col-md-6 pt-5 animate__animated animate__fadeInRight" id="text-sec">
               <div class="card" style="background:#0e141b;">
               
                   <img class="pix mx-auto " src="../src/assets/img3.jpg" alt="Omooba">
@@ -69,10 +71,10 @@
 
             
               <div class="container" id="help-with">
-                <h1 class="know-more mb-4 can-help">I can help you with</h1>
+                <h1 class="know-more mb-4 can-help animate__animated animate__flash">I can help you with</h1>
 
               <div class="row help-row">
-            <div class="col-md-4">
+            <div class="col-md-4 animate__animated animate__bounceIn">
             <div class="text-center pb-4 mt-3">
               <img clas="w-25 " style="width:18%" src="../src/assets/web.svg" alt="Omooba">
               </div>
@@ -84,7 +86,7 @@
               </div>
             </div>
           
-            <div class="col-md-4">
+            <div class="col-md-4 animate__animated animate__bounceIn">
              <div class="text-center pb-4 mt-2">
               <img class=" " style="width:20%" src="../src/assets/internet.svg" alt="Omooba">
               </div>
@@ -96,7 +98,7 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 animate__animated animate__bounceIn">
              <div class="text-center pb-4 mt-4">
               <img clss="w-25 " style="width:16%" src="../src/assets/prototype.svg" alt="Omooba">
               </div>
@@ -114,7 +116,7 @@
    
 
 
-                  <div class="container mb-1 mt-1" >
+                  <div class="container mb-1 mt-1 animate__pulse" >
                     <h1 class=" pb-5  latest text-center">Latest Blog Post</h1>
                               <div class="row pb-5 pt-3 mb-2" style="border: 5px solid #192430">
                       
@@ -460,7 +462,7 @@ color: rgb(248, 234, 206);
 	margin-right: 10px;
 }
 .navbar .navbar-brand {
-	color: #555;
+	color: rgb(129, 129, 129);
 	padding-left: 0;
 	font-size: 25px;
 	padding-right: 50px;
