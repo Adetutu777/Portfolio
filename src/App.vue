@@ -498,6 +498,11 @@ color: rgb(248, 234, 206);
 	border: 0;
 
 }
+
+.animate__animated{
+animation-duration: 2s ;
+}
+
 @media (min-width: 992px){
 	.form-inline .input-group {
 		width: 250px;
