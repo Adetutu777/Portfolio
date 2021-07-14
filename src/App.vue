@@ -500,7 +500,7 @@ color: rgb(248, 234, 206);
 }
 
 .animate__animated{
-animation-duration: 2s ;
+animation-duration: 1.5s ;
 }
 
 @media (min-width: 992px){
