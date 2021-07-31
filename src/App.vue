@@ -196,28 +196,33 @@
                   <div>
                   
                   </div>
-                  <form >
+
+<!-- contact me section -->
+                  <div class="my-container">
+                  <form class="contact-form" @submit.prevent= "sendEmail" >
                     <!-- <input type="hidden" data-form-email="true"> -->
                     <div class="form-group">
-                      <input type="text " class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                      <!-- <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name"> -->
+                      <input type="text" class="form-control"  name="name" required="" placeholder="Name*">
                     </div>
                     <div class="form-group">
-                      <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                      <input type="email" class="form-control"  name="email" required="" placeholder="Email*">
                     </div>
                     <div class="form-group">
-                      <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                      <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone" >
                     </div>
                     <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                      <textarea class="form-control" name="message" placeholder="Message" rows="7"></textarea>
                     </div>
                     <div>
                       <button type="submit" class="btn btn-lg sub-btn">Send</button>
                     </div>
                   </form>
+                  </div>
                
-          </div>
-        </div>
-      </div>
+                </div>
+              </div>
+            </div>
         </div>
         </div>
   </section>
@@ -229,27 +234,79 @@
 
 import { onMounted, ref } from 'vue';
 import axios from 'axios'
+import  emailjs  from 'emailjs-com';
+
 
 export default {
   name: "App",
   
   setup() {
     // const apidata = ref(null)
-    let myBlog=ref('')
+    let myBlog =ref('')
+    let name = ref("");
+    let email = ref("");
+    // const phone = ref("");
+   let message = ref("");
+       
  
     onMounted (() => {
     axios.get('https://dev.to/api/articles?username=okeken')
-    // .then( response => console.log('i love you', response.data))
+    // .then( response => console.log('hello', response.data))
     .then( response => myBlog.value = response?.data)
    .catch(error => console.log(error))
    })
-    console.log(myBlog)
-   return { myBlog }
-  }
-  
+   
+  //  const sendEmail=(e)=> {
+  //     try {
+  //       emailjs.sendForm('Contact_Me', '__ejs-test-mail-service__', e.target,
+  //       'user_qqNYHHVb84i1Mh5uUtZN2', 
+  //       {
+  //         name: this.name,
+  //         name: myname,
+  //         email: email,
+  //         message: message
+  //       })
 
-  
+  //     } catch(error) {
+  //         console.log({error})
+  //     }
+  //     return{
+  //       sendEmail
+  //     }
+  //   }
+
+  //  const sendEmail=(e)=> {
+  //     try {
+  //       emailjs.sendForm( 'Portfolio_ContactMe', 'template_l99nigo', e.target,
+  //       'user_qqNYHHVb84i1Mh5uUtZN2', {
+  //         name: name.value,
+  //         email: email.value,
+  //         message: message.value
+  //       })
+
+  //     } catch(error) {
+  //         console.log({error})
+  //     }
+  //     // return{
+  //     //   sendEmail
+  //     // }
+  //   }
+    const sendEmail= (e) => {
+      emailjs.sendForm('Portfolio_ContactMe', 'template_l99nigo', e.target,
+        'user_qqNYHHVb84i1Mh5uUtZN2',)
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
+    // console.log(myBlog)
+   return { myBlog, sendEmail }
+
+    
+  }
 }
+  
 </script>
 
 
