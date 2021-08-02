@@ -203,16 +203,16 @@
                     <!-- <input type="hidden" data-form-email="true"> -->
                     <div class="form-group">
                       <!-- <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name"> -->
-                      <input type="text" class="form-control"  name="name" required="" placeholder="Name*">
+                      <input type="text" v-model="name" class="form-control"  name="name" required="" placeholder="Name*">
                     </div>
                     <div class="form-group">
-                      <input type="email" class="form-control"  name="email" required="" placeholder="Email*">
+                      <input type="email"  v-model="email" class="form-control"  name="email" required="" placeholder="Email*">
                     </div>
                     <div class="form-group">
                       <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone" >
                     </div>
                     <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Message" rows="7"></textarea>
+                      <textarea class="form-control" name="message" v-model="message" placeholder="Message" rows="7"></textarea>
                     </div>
                     <div>
                       <button type="submit" class="btn btn-lg sub-btn">Send</button>
@@ -245,7 +245,6 @@ export default {
     let myBlog =ref('')
     let name = ref("");
     let email = ref("");
-    // const phone = ref("");
    let message = ref("");
        
  
@@ -292,7 +291,7 @@ export default {
   //     // }
   //   }
     const sendEmail= (e) => {
-      emailjs.sendForm('Portfolio_ContactMe', 'template_l99nigo', e.target,
+      emailjs.sendForm('Contact_Me', 'template_l99nigo', e.target,
         'user_qqNYHHVb84i1Mh5uUtZN2',)
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
@@ -301,7 +300,7 @@ export default {
         });
     }
     // console.log(myBlog)
-   return { myBlog, sendEmail }
+   return { myBlog, sendEmail, name, email, message, }
 
     
   }
