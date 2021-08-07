@@ -200,8 +200,8 @@
 <!-- contact me section -->
                   <div class="my-container">
                   <div class="text-white text-center bg-info font-weight-bold p-3 mb-4"
-                  v-if="reg_show_alert" :class="reg_alert_variant">
-                  {{ reg_alert_msg }}
+                  v-if="mesg_show_alert" :class="mesg_alert_variant">
+                  {{ mesg_alert_msg }}
                   </div>
                   <form class="contact-form" @submit.prevent= "sendEmail" >
                     <!-- <input type="hidden" data-form-email="true"> -->
@@ -219,7 +219,7 @@
                       <textarea class="form-control" name="message" v-model="message" required placeholder="Message" rows="7"></textarea>
                     </div>
                     <div>
-                      <button type="submit" :disabled="reg_in_submission"
+                      <button type="submit" :disabled="mesg_in_submission"
                        class="btn btn-lg sub-btn">Send</button>
                     </div> 
 
@@ -254,10 +254,10 @@ export default {
     let phone = ref("");
    let message = ref("");
 
-     let reg_in_submission= ref( false );
-     let reg_show_alert = ref( false );
-    let reg_alert_variant= ref('pink');
-    let reg_alert_msg= ref('Please wait, your account is been created.');
+     let mesg_in_submission= ref( false );
+     let mesg_show_alert = ref( false );
+    let mesg_alert_variant= ref('pink');
+    let mesg_alert_msg= ref('Please wait, your account is been created.');
        
  
     onMounted (() => {
@@ -276,13 +276,13 @@ export default {
             // console.log('FAILED...', error);
         });
 
-       reg_show_alert.value = true;
-      reg_in_submission.value = true;
-      reg_alert_variant.value = 'pink';
-      reg_alert_msg.value = 'Message sending.';
+       mesg_show_alert.value = true;
+      mesg_in_submission.value = true;
+      mesg_alert_variant.value = 'pink';
+      mesg_alert_msg.value = 'Message sending.';
 
-     reg_alert_variant.value = 'green';
-      reg_alert_msg.value = 'Message sent, Thank you,';
+     mesg_alert_variant.value = 'green';
+     mesg_alert_msg.value = 'Message sent, Thank you,';
       // console.log(e);
        
         name.value = '';
@@ -293,8 +293,8 @@ export default {
     }
       
     // console.log(myBlog)
-   return { myBlog, sendEmail, name, email, message, phone, reg_in_submission,
-    reg_show_alert, reg_alert_variant, reg_alert_msg }
+   return { myBlog, sendEmail, name, email, message, phone, mesg_in_submission,
+    mesg_show_alert, mesg_alert_variant, mesg_alert_msg }
   }
 }
   
