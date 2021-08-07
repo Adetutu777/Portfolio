@@ -189,7 +189,7 @@
           <div class="col-md-6 contact-more">
             <h4 class="know-more pb-4">Want to Know More</h4>
             <p class="text-white my-details">
-            What to know more about me? Have an <br> exciting  project that could use my help? <br> Drop me a  line and let's chat!</p>
+            Want to know more about me? Have an <br> exciting  project that could use my help? <br> Drop me a  line and let's chat!</p>
           </div>
           <div class="col-md-6 pt-5">
             
@@ -213,10 +213,10 @@
                       <input type="email"  v-model="email" class="form-control"  name="email" required="" placeholder="Email*">
                     </div>
                     <div class="form-group">
-                      <input type="tel" class="form-control" v-model="phone" name="phone" placeholder="Phone" data-form-field="Phone" >
+                      <input type="tel" class="form-control" v-model="phone" required name="phone" placeholder="Phone" data-form-field="Phone" >
                     </div>
                     <div class="form-group">
-                      <textarea class="form-control" name="message" v-model="message" placeholder="Message" rows="7"></textarea>
+                      <textarea class="form-control" name="message" v-model="message" required placeholder="Message" rows="7"></textarea>
                     </div>
                     <div>
                       <button type="submit" :disabled="reg_in_submission"
@@ -282,7 +282,7 @@ export default {
       reg_alert_msg.value = 'Message sending.';
 
      reg_alert_variant.value = 'green';
-      reg_alert_msg.value = 'Thank you, Message sent';
+      reg_alert_msg.value = 'Message sent, Thank you,';
       // console.log(e);
        
         name.value = '';
@@ -293,7 +293,8 @@ export default {
     }
       
     // console.log(myBlog)
-   return { myBlog, sendEmail, name, email, message, phone, reg_in_submission, reg_show_alert, reg_alert_variant, reg_alert_msg }
+   return { myBlog, sendEmail, name, email, message, phone, reg_in_submission,
+    reg_show_alert, reg_alert_variant, reg_alert_msg }
   }
 }
   
