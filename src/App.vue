@@ -271,10 +271,9 @@ export default {
       emailjs.sendForm('Contact_Me', 'template_l99nigo', e.target,
         'user_qqNYHHVb84i1Mh5uUtZN2',)
         .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
-              // alert(`Thank you`)
+            // console.log('SUCCESS!', result.status, result.text);
         }, (error) => {
-            console.log('FAILED...', error);
+            // console.log('FAILED...', error);
         });
 
        reg_show_alert.value = true;
