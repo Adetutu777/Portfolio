@@ -199,6 +199,10 @@
 
 <!-- contact me section -->
                   <div class="my-container">
+                  <div class="text-white text-center bg-info font-weight-bold p-3 mb-4"
+                  v-if="reg_show_alert" :class="reg_alert_variant">
+                  {{ reg_alert_msg }}
+                  </div>
                   <form class="contact-form" @submit.prevent= "sendEmail" >
                     <!-- <input type="hidden" data-form-email="true"> -->
                     <div class="form-group">
@@ -209,14 +213,16 @@
                       <input type="email"  v-model="email" class="form-control"  name="email" required="" placeholder="Email*">
                     </div>
                     <div class="form-group">
-                      <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone" >
+                      <input type="tel" class="form-control" v-model="phone" name="phone" placeholder="Phone" data-form-field="Phone" >
                     </div>
                     <div class="form-group">
                       <textarea class="form-control" name="message" v-model="message" placeholder="Message" rows="7"></textarea>
                     </div>
                     <div>
-                      <button type="submit" class="btn btn-lg sub-btn">Send</button>
-                    </div>
+                      <button type="submit" :disabled="reg_in_submission"
+                       class="btn btn-lg sub-btn">Send</button>
+                    </div> 
+
                   </form>
                   </div>
                
@@ -245,7 +251,13 @@ export default {
     let myBlog =ref('')
     let name = ref("");
     let email = ref("");
+    let phone = ref("");
    let message = ref("");
+
+     let reg_in_submission= ref( false );
+     let reg_show_alert = ref( false );
+    let reg_alert_variant= ref('pink');
+    let reg_alert_msg= ref('Please wait, your account is been created.');
        
  
     onMounted (() => {
@@ -254,61 +266,39 @@ export default {
     .then( response => myBlog.value = response?.data)
    .catch(error => console.log(error))
    })
-   
-  //  const sendEmail=(e)=> {
-  //     try {
-  //       emailjs.sendForm('Contact_Me', '__ejs-test-mail-service__', e.target,
-  //       'user_qqNYHHVb84i1Mh5uUtZN2', 
-  //       {
-  //         name: this.name,
-  //         name: myname,
-  //         email: email,
-  //         message: message
-  //       })
 
-  //     } catch(error) {
-  //         console.log({error})
-  //     }
-  //     return{
-  //       sendEmail
-  //     }
-  //   }
-
-  //  const sendEmail=(e)=> {
-  //     try {
-  //       emailjs.sendForm( 'Portfolio_ContactMe', 'template_l99nigo', e.target,
-  //       'user_qqNYHHVb84i1Mh5uUtZN2', {
-  //         name: name.value,
-  //         email: email.value,
-  //         message: message.value
-  //       })
-
-  //     } catch(error) {
-  //         console.log({error})
-  //     }
-  //     // return{
-  //     //   sendEmail
-  //     // }
-  //   }
     const sendEmail= (e) => {
       emailjs.sendForm('Contact_Me', 'template_l99nigo', e.target,
         'user_qqNYHHVb84i1Mh5uUtZN2',)
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
+              // alert(`Thank you`)
         }, (error) => {
             console.log('FAILED...', error);
         });
-    }
-    // console.log(myBlog)
-   return { myBlog, sendEmail, name, email, message, }
 
-    
+       reg_show_alert.value = true;
+      reg_in_submission.value = true;
+      reg_alert_variant.value = 'pink';
+      reg_alert_msg.value = 'Message sending.';
+
+     reg_alert_variant.value = 'green';
+      reg_alert_msg.value = 'Thank you, Message sent';
+      // console.log(e);
+       
+        name.value = '';
+        email.value = '';
+        phone.value = '';
+        message.value ='';
+      
+    }
+      
+    // console.log(myBlog)
+   return { myBlog, sendEmail, name, email, message, phone, reg_in_submission, reg_show_alert, reg_alert_variant, reg_alert_msg }
   }
 }
   
 </script>
-
-
 
 <style scoped>
 
