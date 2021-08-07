@@ -261,7 +261,7 @@ export default {
        
  
     onMounted (() => {
-    axios.get('https://dev.to/api/articles?username=okeken')
+    axios.get('https://dev.to/api/articles?username=adetutu777')
     // .then( response => console.log('hello', response.data))
     .then( response => myBlog.value = response?.data)
    .catch(error => console.log(error))
