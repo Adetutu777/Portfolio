@@ -3,6 +3,7 @@
 
     <div id="app">
   <div class="container">
+  <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
 	<a class="navbar-brand" href="">Ade<b>tutu</b></a>  		
 	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -33,6 +34,7 @@
 
   
   <!-- Bio -->
+  <section>
               <div class="container" style="padding-top:4rem;">
               <div class="row">
             <!-- <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first"> -->
@@ -68,8 +70,10 @@
 
 
               </div>
+              </section>
 
-            
+<!-- What i can do -->
+            <section>
               <div class="container" id="help-with">
                 <h1 class="know-more mb-4 can-help animate__animated animate__flash">I can help you with</h1>
 
@@ -112,35 +116,31 @@
           
           </div>
               </div>
-    
+    </section>
    
-
-
+<!-- blog post -->
+          <section>
                   <div class="container mb-1 mt-1 animate__pulse" >
-                    <h1 class=" pb-5  latest text-center">Latest Blog Post</h1>
-                              <div class="row pb-5 pt-3 mb-2" style="border: 5px solid #192430">
-                      
-                        <div class="col-md-12">
-                          <div class="cad about-me px-4 pt-4 pb-3 mb-3" >
-                          
-                            
-                      <div class="row text-white"  v-for= "data in myBlog" :key="data.id">
-                <div class="col-md-12 pt-4 pb-0 text-center" style="font-size:1.3rem" >
-                <div class="text-white">
-                <h3 class="text-white">{{data.title}}</h3>
-                  {{data.description}}
-                </div>
-                </div>
-                </div>
-                          </div>
+                    <h1 class=" pb-5  latest tet-center">Latest Blog Post</h1>
+                              <div class="row pb-5 pt-3 mb-2 text-white">
+                        <div class="col-md-3 ml-2 " v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
+                          <div class="cad about-me pb-3" >  
+                          <a class="text-decoration-none" :href="data.url" target="_blank">
+                          <img class="img-img w-100" stle="width:100%" :src="data.social_image" alt="image">
+                          <p class="text-center text-white" stle="text-decoration: none;">  {{data.title}} </p></a>
+                        </div>
                         </div>
                       </div>
-
-                
                 </div>
+                </section>
 
+<!-- Projects -->
+                <!-- <section>
+                <h1 class=" pb-5  latest text-center">Projects Worked On</h1>
+                </section> -->
 
-        
+<!-- About me -->
+<section>
                   <div class="container pt-5  about-me-sect" id="about-about">
                               <div class="row px-1">
                         <div class="col-md-8">
@@ -154,7 +154,7 @@
                             <h3 class="know-more mt-0 pb-4">Projects and Opportunities am interested in</h3>
                     <div class="text-white my-details">
                       <p>Web development.</p>
-                      <p>Web development</p>
+                      <p>Technical writing.</p>
                       
                     </div>
                           </div>
@@ -184,6 +184,9 @@
                   </div>
                 </div>
 
+                </section>
+
+<section>
             <div class="container" id="my-contact">
         <div class="row pb-5 last-sec" style="padding-top:5rem;">
           <div class="col-md-6 contact-more">
@@ -199,7 +202,7 @@
 
 <!-- contact me section -->
                   <div class="my-container">
-                  <div class="text-white text-center bg-info font-weight-bold p-3 mb-4"
+                  <div class="pop-up text-white text-center bg-info font-weight-bold p-3 mb-4"
                   v-if="mesg_show_alert" :class="mesg_alert_variant">
                   {{ mesg_alert_msg }}
                   </div>
@@ -211,9 +214,6 @@
                     </div>
                     <div class="form-group">
                       <input type="email"  v-model="email" class="form-control"  name="email" required="" placeholder="Email*">
-                    </div>
-                    <div class="form-group">
-                      <input type="tel" class="form-control" v-model="phone" required name="phone" placeholder="Phone" data-form-field="Phone" >
                     </div>
                     <div class="form-group">
                       <textarea class="form-control" name="message" v-model="message" required placeholder="Message" rows="7"></textarea>
@@ -229,6 +229,7 @@
                 </div>
               </div>
             </div>
+            </section>
         </div>
         </div>
   </section>
@@ -251,7 +252,6 @@ export default {
     let myBlog =ref('')
     let name = ref("");
     let email = ref("");
-    let phone = ref("");
    let message = ref("");
 
      let mesg_in_submission= ref( false );
@@ -287,13 +287,12 @@ export default {
        
         name.value = '';
         email.value = '';
-        phone.value = '';
         message.value ='';
       
     }
       
     // console.log(myBlog)
-   return { myBlog, sendEmail, name, email, message, phone, mesg_in_submission,
+   return { myBlog, sendEmail, name, email, message, mesg_in_submission,
     mesg_show_alert, mesg_alert_variant, mesg_alert_msg }
   }
 }
@@ -566,5 +565,9 @@ animation-duration: 1.5s ;
 	}
  
 }
+.pop-up{
+border-radius: 0.3rem 1rem 0.3rem 1rem;
+}
+
 </style>
 
