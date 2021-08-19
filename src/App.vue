@@ -322,7 +322,9 @@
             </div>
             </section>
         </div>
-        <footer class=" myfooter text-white text-center py-1">Made with love <span class="text-success">Adetutu</span> </footer>
+        <footer class=" myfooter text-white text-center py-1">
+       <p class="mt-4"> Made with love <span class="text-success me-me">Adetutu</span> </p>
+        </footer>
         </div>
   </section>
 
@@ -580,8 +582,12 @@ color: rgb(248, 234, 206);
   padding-top: 8rem;
  }
  .myfooter{
- background: rgb(71, 49, 4);
+  background:#2b3949
 
+}
+
+.myfooter p{
+cursor: pointer;
 }
 
  @media screen and (max-width: 480px) {
