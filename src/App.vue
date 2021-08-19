@@ -76,12 +76,15 @@
 <!-- What i can do -->
             <section>
               <div class="container" id="help-with">
-                <h1 class="know-more mb-4 can-help animate__animated animate__flash">I can help you with</h1>
-
-              <div class="row help-row">
+              <div class="tech-wri">
+                <h2 class="know-more mb-4 can-help ">I can help you with
+                </h2>
+                 
+                </div>
+              <div class="row help-row animate__animated animate__flash">
             <div class="col-md-4 animate__animated animate__bounceIn">
             <div class="text-center pb-4 mt-3">
-              <img clas="w-25 " style="width:18%" src="../src/assets/web.svg" alt="Omooba">
+              <img clas="w-25 " style="width:18%" src="../src/assets/web.svg" alt="image">
               </div>
               <div class="card text-white  border-each mb-3" style="background:none">
                 <div class="card-body ">
@@ -93,7 +96,7 @@
           
             <div class="col-md-4 animate__animated animate__bounceIn">
              <div class="text-center pb-4 mt-2">
-              <img class=" " style="width:20%" src="../src/assets/internet.svg" alt="Omooba">
+              <img class=" " style="width:20%" src="../src/assets/internet.svg" alt="img">
               </div>
               <div class="card text-white  border-each mb-3" style="background:none">
                 <div class="card-body ">
@@ -110,6 +113,7 @@
               <div class="card text-white  border-each mb-3" style="background:none">
                 <div class="card-body ">
                   <h3 class="card-title know-more">Technical Writing</h3>
+                  <img class="text-white" style="width:20%" src="../src/assets/internet.svg" alt="img">
                   <p class="card-text text-text">My passion for web development has helped bring out the writing skills in me, I love to write as I learn new things while coding</p>
                 </div>
               </div>
@@ -121,8 +125,8 @@
    
 <!-- blog post -->
           <section>
-                  <div class="container mb-1 mt-1 animate__pulse" >
-                    <h1 class=" pb-5  latest tet-center">Writing</h1>
+                  <div class="container animate__pulse" >
+                  <h2 class=" pb-3  latest">Writing</h2>
                               <div class="row pb-5 pt-3 mb-2 text-white">
                         <div class="col-md-3 ml-2 " v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
                           <div class="cad about-me pb-3" >  
@@ -135,7 +139,7 @@
                 </div>
                 </section>
 
-          <section>
+          <!-- <section>
                   <div class="container mb-1 mt-1 animate__pulse text-white" >
                     <h1 class=" pb-5  latest tet-center">Latest Blog Post</h1>
                              <a class="row py-4 text-decoration-none" :href="data.url" target="_blank" 
@@ -151,28 +155,15 @@
                       </a>
                     </div>
                 
-                </section>
+                </section> -->
 
 <!-- Projects -->
                 <section>
-                <h1 class="latest pt-5">Projects </h1>
+                
                 <div class="container">
-                <!-- <div class="row text-white">
-                <div class="col-md-4">
-                <img src="../src/assets/screen1.png" alt="project-image">
-                </div>
-                <div class="col-md-4">
-                <img src="../src/assets/screen1.png" alt="project-image">
-                </div>
-                <div class="col-md-4">
-                <img src="../src/assets/screen1.png" alt="project-image">
-                </div>
-                
-                
-                </div> -->
-
-                <div class="row">
-  <div class="col-md-4">
+                <h2 class="latest pb-3 pt-2">Projects </h2>
+                <div class="row animate__animated animate__pulse">
+  <div class="col-md-4 pt-2">
     <div clas="card">
     <div class="card-body">
     <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
@@ -200,7 +191,7 @@
         src="../src/assets/screen4.png" alt="project-image">
        <div class="middle">
         <div class="mytext">
-        <h6>Top 100 Coin</h6>
+        <h6>Top 100 cryptocurrency</h6>
         <p>A web app displaying
         the top 100 cryptocurrency coin
         </p>
@@ -219,7 +210,7 @@
         src="../src/assets/screen4.png" alt="project-image">
        <div class="middle">
         <div class="mytext">
-        <h6>Top 100 Coin</h6>
+        <h6>Top 100 cryptocurrency</h6>
         <p>A web app displaying
         the top 100 cryptocurrency coin
         </p>
