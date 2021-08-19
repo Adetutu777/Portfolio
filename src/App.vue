@@ -139,24 +139,6 @@
                 </div>
                 </section>
 
-          <!-- <section>
-                  <div class="container mb-1 mt-1 animate__pulse text-white" >
-                    <h1 class=" pb-5  latest tet-center">Latest Blog Post</h1>
-                             <a class="row py-4 text-decoration-none" :href="data.url" target="_blank" 
-                             v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
-                      
-                      <div class="col-md-4">
-                       <img class="img-img w-100" stle="width:100%" :src="data.social_image" alt="image">
-                      </div>
-                      <div class="col-md-8 pt-5">
-                        <h3 class="text-center text-white" stle="text-decoration: none;">  {{data.title}} </h3>
-                        <p class="float-right text-white">{{ data.readable_publish_date }}</p>
-                      </div>
-                      </a>
-                    </div>
-                
-                </section> -->
-
 <!-- Projects -->
                 <section>
                 
@@ -229,7 +211,7 @@
 
 
 <!-- About me -->
-<section>
+        <section>
                   <div class="container pt-5  about-me-sect" id="about-about">
                               <div class="row px-1">
                         <div class="col-md-8">
