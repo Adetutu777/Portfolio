@@ -29,7 +29,8 @@
         </div>		
 	</div>
 </nav>
- 
+
+
   <router-view/>
 
   
@@ -121,7 +122,7 @@
 <!-- blog post -->
           <section>
                   <div class="container mb-1 mt-1 animate__pulse" >
-                    <h1 class=" pb-5  latest tet-center">Latest Blog Post</h1>
+                    <h1 class=" pb-5  latest tet-center">Writing</h1>
                               <div class="row pb-5 pt-3 mb-2 text-white">
                         <div class="col-md-3 ml-2 " v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
                           <div class="cad about-me pb-3" >  
@@ -134,10 +135,107 @@
                 </div>
                 </section>
 
+          <section>
+                  <div class="container mb-1 mt-1 animate__pulse text-white" >
+                    <h1 class=" pb-5  latest tet-center">Latest Blog Post</h1>
+                             <a class="row py-4 text-decoration-none" :href="data.url" target="_blank" 
+                             v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
+                      
+                      <div class="col-md-4">
+                       <img class="img-img w-100" stle="width:100%" :src="data.social_image" alt="image">
+                      </div>
+                      <div class="col-md-8 pt-5">
+                        <h3 class="text-center text-white" stle="text-decoration: none;">  {{data.title}} </h3>
+                        <p class="float-right text-white">{{ data.readable_publish_date }}</p>
+                      </div>
+                      </a>
+                    </div>
+                
+                </section>
+
 <!-- Projects -->
-                <!-- <section>
-                <h1 class=" pb-5  latest text-center">Projects Worked On</h1>
-                </section> -->
+                <section>
+                <h1 class="latest pt-5">Projects </h1>
+                <div class="container">
+                <!-- <div class="row text-white">
+                <div class="col-md-4">
+                <img src="../src/assets/screen1.png" alt="project-image">
+                </div>
+                <div class="col-md-4">
+                <img src="../src/assets/screen1.png" alt="project-image">
+                </div>
+                <div class="col-md-4">
+                <img src="../src/assets/screen1.png" alt="project-image">
+                </div>
+                
+                
+                </div> -->
+
+                <div class="row">
+  <div class="col-md-4">
+    <div clas="card">
+    <div class="card-body">
+    <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
+       <img class="myImg" style="border:4px solid #192430"
+        src="../src/assets/screen4.png" alt="project-image">
+       <div class="middle">
+        <div class="mytext">
+        <h6>Top 100 cryptocurrency</h6>
+        <p>A web app displaying
+        the top 100 cryptocurrency coin
+        </p>
+        <p>Tools used: Vue.js, Bootstrap</p>
+        </div>
+                  </div>
+                  </a>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-md-4">
+    <div clas="card">
+    <div class="card-body">
+    <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
+       <img class="myImg" style="border:4px solid #192430"
+        src="../src/assets/screen4.png" alt="project-image">
+       <div class="middle">
+        <div class="mytext">
+        <h6>Top 100 Coin</h6>
+        <p>A web app displaying
+        the top 100 cryptocurrency coin
+        </p>
+        <p>Tools used: Vue.js, Bootstrap</p>
+        </div>
+                  </div>
+                  </a>
+    </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <div clas="card">
+    <div class="card-body">
+    <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
+       <img class="myImg" style="border:4px solid #192430"
+        src="../src/assets/screen4.png" alt="project-image">
+       <div class="middle">
+        <div class="mytext">
+        <h6>Top 100 Coin</h6>
+        <p>A web app displaying
+        the top 100 cryptocurrency coin
+        </p>
+        <p>Tools used: Vue.js, Bootstrap</p>
+        </div>
+                  </div>
+                  </a>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+                </div>
+                </section>
+
 
 <!-- About me -->
 <section>
@@ -146,7 +244,9 @@
                         <div class="col-md-8">
                           <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
                           <h3 class="know-more mt-4 pb-4" >About Me</h3>
-                      <p class="text-white pb-4 pt-0 my-details " >I am Adetutu Gbangbola, a confident, reliable and enthusiastic individual, with passion for software development I have a BSc. degree in Computer Science, with hands-on experience using HTML, Css, Js. to create and implement web applications.  </p>
+                      <p class="text-white pb-4 pt-0 my-details " >Meticulous web developer with BSc. degree in computer science with front end experience and passion for responsive website design. I am a firm believer in the mobile-first approach.</p>
+
+                       <p class="text-white pb-4 pt-0 my-details ">I enjoy learning new things and using them to create new ideas. When am not coding you can find me listening to music, reading, Hanging out with friends or exploring nature.</p>
                           </div>
                         </div>
                         <div class="col-md-4">
@@ -231,6 +331,7 @@
             </div>
             </section>
         </div>
+        <footer class=" myfooter text-white text-center py-1">Made with love <span class="text-success">Adetutu</span> </footer>
         </div>
   </section>
 
@@ -257,7 +358,7 @@ export default {
      let mesg_in_submission= ref( false );
      let mesg_show_alert = ref( false );
     let mesg_alert_variant= ref('pink');
-    let mesg_alert_msg= ref('Please wait, your account is been created.');
+    let mesg_alert_msg= ref('Sending');
        
  
     onMounted (() => {
@@ -279,10 +380,10 @@ export default {
        mesg_show_alert.value = true;
       mesg_in_submission.value = true;
       mesg_alert_variant.value = 'pink';
-      mesg_alert_msg.value = 'Message sending.';
+      mesg_alert_msg.value = 'Sending';
 
      mesg_alert_variant.value = 'green';
-     mesg_alert_msg.value = 'Message sent, Thank you,';
+     mesg_alert_msg.value = 'Message sent, Thank you.';
       // console.log(e);
        
         name.value = '';
@@ -398,6 +499,50 @@ border-radius: 1rem;
 padding: 2rem 0 7rem 0;
 }
 
+.myImg {
+
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.middle {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+    
+  
+  }
+ 
+
+  .proj-img:hover .myImg {
+    opacity: 0.3;
+    background: rgba(0, 255, 255, 0.5);
+    
+  }
+  
+  .proj-img:hover .middle {
+    opacity: 1;
+  }
+  
+  .mytext {
+    color: white;
+    font-size: .8rem;
+    
+   
+  }
+
+ 
+
 .about{
 color:rgb(250, 237, 214) ;
 font-size: 3rem;
@@ -443,6 +588,10 @@ color: rgb(248, 234, 206);
 .contact-more{
   padding-top: 8rem;
  }
+ .myfooter{
+ background: rgb(71, 49, 4);
+
+}
 
  @media screen and (max-width: 480px) {
    #pix-first{
