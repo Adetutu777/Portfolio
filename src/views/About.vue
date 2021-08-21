@@ -697,7 +697,7 @@ cursor: pointer;
 }
 .navbar .navbar-brand b {
 	font-weight: bold;
-	color: #eb5844;
+	color: #ec8375;
 }
 .navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
 	color: #f08373 !important;
