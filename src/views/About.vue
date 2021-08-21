@@ -37,20 +37,20 @@
   
   <!-- Bio -->
   <section>
-              <div class="container" style="padding-top:4rem;">
+              <div class="container contain-all">
               <div class="row">
             <!-- <div class="col-md-6 wow animate_animated animate_fadeInLeft" id="pix-first"> -->
             <div class="col-md-6 animate__animated animate__fadeInLeft" id="pix-first">
-              <div class="card text-white" style="background:#0e141b;">
+              <div class="card text-white col-one">
               
                   
                 <h1 class="about mt-5 pb-3">
-                      Hello, I'm A Frontend Developer
+                      Hi, I'm Adetutu, a Frontend Developer
                     </h1>
 
                     <p class="details pb-3 pt-3">
-                      I am Adetutu Gbangbola, I create <br> responsive websites & web applications.
-                      Innovation is  <br> my  Passion.
+                    
+                      I am a creative individual with passion for technology. You can call me the web girl, I love everything about the web. Providing solution to real life problems gives me Joy. 
                     </p>
                   
                 <a href="#my-contact">
@@ -60,7 +60,7 @@
             </div>
             <!-- <div class="col-md-6 pt-5 wow animate_animated animate_fadeInLeft" id="text-sec"> -->
             <div class="col-md-6 pt-5 animate__animated animate__fadeInRight" id="text-sec">
-              <div class="card" style="background:#0e141b;">
+              <div class="card card-pix">
               
                   <img class="pix mx-auto " src="../../src/assets/img4.jpg" alt="Omooba">
               
@@ -85,9 +85,9 @@
               <div class="row help-row animate__animated animate__flash">
             <div class="col-md-4 animate__animated animate__bounceIn">
             <div class="text-center pb-4 mt-3">
-              <img clas=" " style="width:15%" src="../../src/assets/web.svg" alt="image">
+              <img class="icon-img" src="../../src/assets/web.svg" alt="image">
               </div>
-              <div class="card text-white  border-each mb-3" style="background:none">
+              <div class="card text-white  border-each mb-3">
                 <div class="card-body ">
                   <h3 class="card-title know-more">Web Development</h3>
                   <p class="card-text text-text"> Either it's a simple web app or a single web app, get it done with the latest tools and frameworks to build powerful and robust apps.</p>
@@ -97,9 +97,9 @@
           
             <div class="col-md-4 animate__animated animate__bounceIn">
              <div class="text-center pb-4 mt-2">
-              <img class=" " style="width:15%" src="../../src/assets/internet.svg" alt="img">
+              <img class="icon-img " src="../../src/assets/internet.svg" alt="img">
               </div>
-              <div class="card text-white  border-each mb-3" style="background:none">
+              <div class="card text-white  border-each mb-3">
                 <div class="card-body ">
                   <h3 class="card-title know-more">PSD to Html, Css & Js</h3>
                   <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive, good to view on devices.</p>
@@ -109,9 +109,9 @@
 
             <div class="col-md-4 animate__animated animate__bounceIn">
              <div class="text-center pb-4 mt-4">
-              <img clss="w-25 " style="width:15%" src="../../src/assets/prototype.svg" alt="Omooba">
+              <img class="icon-img " src="../../src/assets/prototype.svg" alt="Omooba">
               </div>
-              <div class="card text-white  border-each mb-3" style="background:none">
+              <div class="card text-white  border-each mb-3" >
                 <div class="card-body ">
                   <h3 class="card-title know-more">Technical Writing</h3>
                   <p class="card-text text-text">My passion for web development has helped bring out the writing skills in me, I love to write as I learn new things while coding</p>
@@ -127,15 +127,15 @@
           <section>
                   <div class="container animate__pulse" id="writing" >       
                   <div class="myicons">
-                  <span class=" pr-3 latest" style="font-size:2.1rem">Writing</span>
-                  <img class="pb-2" style="max-width:1.5rem;"  src="../../src/assets/notes.svg" alt="">
+                  <span class=" pr-3 latest">Writing</span>
+                  <img class="pb-2 head-write"  src="../../src/assets/notes.svg" alt="">
                   </div>
 
                               <div class="row pb-5 pt-3 mb-2 text-white">
-                        <div class="col-md-3 ml-2 " v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
+                        <div class="col-md-3 ml-2 blog-des" v-for= "data in myBlog" :key="data.id">
                           <div class="cad about-me pb-3" >  
                           <a class="text-decoration-none" :href="data.url" target="_blank">
-                          <img class="img-img w-100" stle="width:100%" :src="data.social_image" alt="image">
+                          <img class="img-img w-100" :src="data.social_image" alt="image">
                           <p class="text-center text-white" stle="text-decoration: none;">  {{data.title}} </p></a>
                         </div>
                         </div>
@@ -148,8 +148,8 @@
                 
                 <div class="container">
                 <div class="myicons">
-                  <span class=" pr-3 latest" style="font-size:2.1rem">Projects</span>
-                  <img class="pb-2" style="max-width:1.5rem;"  src="../../src/assets/monitor.svg" alt="">
+                  <span class=" pr-3 latest ">Projects</span>
+                  <img class="pb-2 icon-img head-write"  src="../../src/assets/monitor.svg" alt="">
                   </div>
 
                 <div class="row animate__animated animate__pulse">
@@ -157,7 +157,7 @@
     <div clas="card">
     <div class="card-body">
     <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
-       <img class="myImg" style="border:4px solid #192430"
+       <img class="myImg"
         src="../../src/assets/screen4.png" alt="project-image">
        <div class="middle">
         <div class="mytext">
@@ -177,7 +177,7 @@
     <div clas="card">
     <div class="card-body">
     <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
-       <img class="myImg" style="border:4px solid #192430"
+       <img class="myImg"
         src="../../src/assets/screen4.png" alt="project-image">
        <div class="middle">
         <div class="mytext">
@@ -196,7 +196,7 @@
     <div clas="card">
     <div class="card-body">
     <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
-       <img class="myImg" style="border:4px solid #192430"
+       <img class="myImg"
         src="../../src/assets/screen4.png" alt="project-image">
        <div class="middle">
         <div class="mytext">
@@ -223,8 +223,8 @@
                   <div class="container pt-5  about-me-sect" id="about-about">
                               <div class="row px-1">
                         <div class="col-md-8">
-                          <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
-                          <h3 class="know-more mt-4 pb-4" >About Me</h3>
+                          <div class="card about-me px-4 mb-3">
+                          <h3 class="know-more mb-4 pt-5" >About Me</h3>
                       <p class="text-white pb-4 pt-0 my-details " >I am a meticulous web developer with BSc. degree in computer science with front end experience and passion for responsive website design. I am a firm believer in the mobile-first approach.</p>
 
                        <p class="text-white pb-4 pt-0 my-details ">I enjoy learning new things and using them to create new ideas. When am not coding you can find me listening to music, reading, Hanging out with friends or exploring nature.</p>
@@ -232,7 +232,7 @@
                         </div>
                         <div class="col-md-4">
                           <div class="cad about-me px-4 pt-5 pb-3 mb-3" >
-                            <h3 class="know-more mt-0 pb-4">Projects and Opportunities am interested in</h3>
+                            <h3 class="know-more mt-0 pb-4">Projects and opportunities am interested in</h3>
                     <div class="text-white my-details">
                       <p>Web development.</p>
                       <p>Technical writing.</p>
@@ -242,7 +242,7 @@
                         </div>
                       </div>
 
-                  <div class="row pt-3 pb-5 px-1" style="text-aign: justify;">
+                  <div class="row pt-3 pb-5 px-1 row-all">
                     <div class="col-md-8 ">
                     <div class="card about-me px-4 mb-3">
                       <h5 class="know-more mt-4 pb-2">Current Location</h5>
@@ -269,12 +269,12 @@
 
 <section>
             <div class="container" id="my-contact">
-        <div class="row pb-5 last-sec" style="padding-top:5rem;">
+        <div class="row pb-5 last-sec" >
           <div class="col-md-6 contact-more">
           
             <div class="myicons">
-                  <span class=" know-more pb-4 latest pr-3" style="font-size:1.5rem">Want to Know More</span>
-                  <img class="pb-2" style="max-width:1.5rem;"  src="../../src/assets/email-me.svg" alt="">
+                  <span class=" know-more pb-4 latest pr-3 ">Want to Know More</span>
+                  <img class="pb-2 head-write" src="../../src/assets/email-me.svg" alt="">
                   
                   </div>
             <p class="text-white my-details pt-4">
@@ -392,6 +392,7 @@ export default {
 
 <style scoped>
 
+
 .info{
     font-family: 'Lato', sans-serif;
     background:#0e141b;
@@ -401,9 +402,30 @@ export default {
 display: flex;
 
 }
+
+.contain-all{
+   padding-top:4rem;
+ 
+}
+
+
+.col-one,
+.col-two{
+background:#0e141b;
+}
+
+    .icon-img{
+    width:15%
+    }
+
+.card-pix{
+background:#0e141b;
+}
 .pix{
 width: 60%;
 border-radius: 50%;
+border: 5px solid #192430;
+
 }
 
 
@@ -421,7 +443,7 @@ margin-top: 8rem;
 
 .details{
 
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   line-height: 1.4;
   
 }
@@ -432,7 +454,18 @@ margin-top: 8rem;
 
 .latest{
   color: rgb(250, 237, 214);
+font-size:2.1rem;
     
+}
+
+.head-write {
+    max-width:1.5rem;
+     
+}
+
+.blog-des, .myImg{
+   border: 5px solid #192430;
+
 }
 
 .GIT:hover{
@@ -474,6 +507,10 @@ padding: .3rem 2.5rem .3rem 2.5rem;
 
 }
 
+.row-all{
+text-aign: justify;
+}
+
 .text-text{
 font-size: 1.3rem;
 }
@@ -482,6 +519,7 @@ font-size: 1.3rem;
 border: 5px solid #192430;
 padding: 1rem;
 border-radius: 1rem;
+background:none;
 
 }
 
@@ -535,7 +573,7 @@ padding: 2rem 0 7rem 0;
 
 .about{
 color:rgb(250, 237, 214) ;
-font-size: 3rem;
+
 }
 
 .about-me,
@@ -598,7 +636,8 @@ cursor: pointer;
    }
 
    .last-sec{
-     padding-top: -12rem;
+    
+  padding-top:5rem;
      
    }
 
