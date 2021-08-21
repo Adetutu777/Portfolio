@@ -16,7 +16,7 @@
 			<a href="#about-about" class="nav-item nav-link text-white">About</a>			
 			<a href="#help-with" class="nav-item nav-link text-white">Services</a>			
 		
-			<a href="#" class="nav-item nav-link active ">Blog</a>
+			<a href="#writing" class="nav-item nav-link active ">Writing</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
         </div>
 		<div class="navbar-nav ml-auto social ">
@@ -44,11 +44,11 @@
               
                   
                 <h1 class="about mt-5 pb-3">
-                      Hello, I'm A Frontend Developer.
+                      Hello, I'm A Frontend Developer
                     </h1>
 
                     <p class="details pb-3 pt-3">
-                      I am Adetutu Gbangbola, I create <br> responsive websites & web Applications.
+                      I am Adetutu Gbangbola, I create <br> responsive websites & web applications.
                       Innovation is  <br> my  Passion.
                     </p>
                   
@@ -123,9 +123,9 @@
               </div>
     </section>
    
-<!-- blog post -->
+<!-- Writing -->
           <section>
-                  <div class="container animate__pulse" >
+                  <div class="container animate__pulse" id="writing" >
                   <h2 class=" pb-3  latest">Writing</h2>
                               <div class="row pb-5 pt-3 mb-2 text-white">
                         <div class="col-md-3 ml-2 " v-for= "data in myBlog" :key="data.id" style="border: 5px solid #192430">
@@ -217,7 +217,7 @@
                         <div class="col-md-8">
                           <div class="card about-me px-4 mb-3" stye="border:1px solid red;">
                           <h3 class="know-more mt-4 pb-4" >About Me</h3>
-                      <p class="text-white pb-4 pt-0 my-details " >Meticulous web developer with BSc. degree in computer science with front end experience and passion for responsive website design. I am a firm believer in the mobile-first approach.</p>
+                      <p class="text-white pb-4 pt-0 my-details " >I am a meticulous web developer with BSc. degree in computer science with front end experience and passion for responsive website design. I am a firm believer in the mobile-first approach.</p>
 
                        <p class="text-white pb-4 pt-0 my-details ">I enjoy learning new things and using them to create new ideas. When am not coding you can find me listening to music, reading, Hanging out with friends or exploring nature.</p>
                           </div>
@@ -305,7 +305,7 @@
             </section>
         </div>
         <footer class=" myfooter text-white text-center py-1">
-       <p class="mt-4"> Made with love <span class="text-success me-me">Adetutu</span> </p>
+       <p class="mt-4"> Made with love <span class="text-success me-me"> <i>Adetutu</i></span> </p>
         </footer>
         </div>
   </section>
