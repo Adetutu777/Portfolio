@@ -176,16 +176,15 @@
   <div class="col-md-4">
     <div clas="card">
     <div class="card-body">
-    <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
-       <img class="myImg"
-        src="../../src/assets/screen4.png" alt="project-image">
+    <a class="proj-img" href="https://adetutu777.github.io/budget-app/" target="_blank">
+       <img class="myImg" style="height:30vh"
+        src="../../src/assets/budget.png" alt="project-image">
        <div class="middle">
         <div class="mytext">
-        <h6>Top 100 cryptocurrency</h6>
-        <p>A web app displaying
-        the top 100 cryptocurrency coin
+        <h6>Budget app</h6>
+        <p>A web app to plan your budget expenses
         </p>
-        <p>Tools used: Vue.js, Bootstrap</p>
+        <p>Tools used:Html, BulmaCss, JavaScript</p>
         </div>
                   </div>
                   </a>
