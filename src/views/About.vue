@@ -101,7 +101,7 @@
               </div>
               <div class="card text-white  border-each mb-3">
                 <div class="card-body ">
-                  <h3 class="card-title know-more">PSD to Html, Css & Js</h3>
+                  <h3 class="card-title know-more ">PSD to Html, Css & Js</h3>
                   <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive, good to view on devices.</p>
                 </div>
               </div>
@@ -177,8 +177,12 @@
     <div clas="card">
     <div class="card-body">
     <a class="proj-img" href="https://adetutu777.github.io/budget-app/" target="_blank">
-       <img class="myImg" style="height:30vh"
-        src="../../src/assets/budget.png" alt="project-image">
+      <div class="mt-2 ">
+        <img class="myImg"
+        src="../../src/assets/budgetdisp.png" alt="project-image">
+      </div>
+       <!-- <img class="myImg" stye="height:100%"
+        src="../../src/assets/budget.png" alt="project-image"> -->
        <div class="middle">
         <div class="mytext">
         <h6>Budget app</h6>
@@ -195,8 +199,10 @@
     <div clas="card">
     <div class="card-body">
     <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
+    <div class="mt-2">
        <img class="myImg"
         src="../../src/assets/screen4.png" alt="project-image">
+        </div>
        <div class="middle">
         <div class="mytext">
         <h6>Top 100 cryptocurrency</h6>
@@ -317,7 +323,7 @@
             </section>
         </div>
         <footer class=" myfooter text-white text-center py-1">
-       <p class="mt-4"> Made with love <span class="text-success me-me"> <i>Adetutu</i></span> </p>
+       <p class="mt-4"> Made with ❤️ <span class="text-success me-me"> <i>Adetutu</i></span> </p>
         </footer>
         </div>
   </section>
@@ -440,12 +446,6 @@ margin-top: 8rem;
   color: whitesmoke;
 }
 
-.details{
-
-  font-size: 1.6rem;
-  line-height: 1.4;
-  
-}
 
 .details-two{
   color: rgb(245, 222, 179);
@@ -453,12 +453,13 @@ margin-top: 8rem;
 
 .latest{
   color: rgb(250, 237, 214);
-font-size:2.1rem;
+font-size:1.9rem;
+
     
 }
 
 .head-write {
-    max-width:1.5rem;
+    max-width:1.4rem;
      
 }
 
@@ -466,6 +467,7 @@ font-size:2.1rem;
    border: 5px solid #192430;
 
 }
+
 
 .GIT:hover{
 border: 1px solid  rgb(250, 237, 214);
@@ -534,6 +536,9 @@ padding: 2rem 0 7rem 0;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  height: auto! important;
+	min-height: 30vh; 
+  
 
 }
 
@@ -582,10 +587,10 @@ color:rgb(250, 237, 214) ;
   
 }
 
-.my-details{
+.my-details, .details{
 font-size: 1.5rem;
 line-height: 1.5;
-text-align: justify;
+
 }
 
 #aa{
@@ -609,6 +614,7 @@ text-align: justify;
 
 .know-more{
 color: rgb(248, 234, 206);
+
 
 }
 
