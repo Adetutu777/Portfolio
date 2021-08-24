@@ -90,31 +90,31 @@
               <div class="card text-white  border-each mb-3">
                 <div class="card-body ">
                   <h3 class="card-title know-more">Web Development</h3>
-                  <p class="card-text text-text"> Either it's a simple web app or a single web app, get it done with the latest tools and frameworks to build powerful and robust apps.</p>
+                  <p class="card-text text-text"> Either it's a simple web app or a single web app, get it done with the latest tools and frameworks.to build powerful and robust apps.</p>
                 </div>
               </div>
             </div>
           
-            <div class="col-md-4 animate__animated animate__bounceIn">
+            <div class="col-md-4 animate__animated animate__bounceIn pt-2">
              <div class="text-center pb-4 mt-2">
               <img class="icon-img " src="../../src/assets/internet.svg" alt="img">
               </div>
-              <div class="card text-white  border-each mb-3">
+              <div class="card text-white  border-each ">
                 <div class="card-body ">
                   <h3 class="card-title know-more ">PSD to Html, Css & Js</h3>
-                  <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive, good to view on devices.</p>
+                  <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive.</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4 animate__animated animate__bounceIn">
+            <div class="col-md-4 animate__animated animate__bounceIn ">
              <div class="text-center pb-4 mt-4">
               <img class="icon-img " src="../../src/assets/prototype.svg" alt="Omooba">
               </div>
-              <div class="card text-white  border-each mb-3" >
+              <div class="card text-white  border-each" >
                 <div class="card-body ">
                   <h3 class="card-title know-more">Technical Writing</h3>
-                  <p class="card-text text-text">My passion for web development has helped bring out the writing skills in me, I love to write as I learn new things while coding</p>
+                  <p class="card-text text-text">My passion for web development brings out the writing skills in me, I love to write as I learn new things while coding</p>
                 </div>
               </div>
             </div>
@@ -283,7 +283,7 @@
                   
                   </div>
             <p class="text-white my-details pt-4">
-            Want to know more about me? Have an <br> exciting  project that could use my help? <br> Drop me a  line and let's chat!</p>
+            Want to know more about me? <br> Have an exciting  project that could use my help? <br> Drop me a  line and let's chat!</p>
           </div>
           <div class="col-md-6 pt-5">
             
@@ -323,7 +323,8 @@
             </section>
         </div>
         <footer class=" myfooter text-white text-center py-1">
-       <p class="mt-4"> Made with ❤️ <span class="text-success me-me"> <i>Adetutu</i></span> </p>
+       <!-- <p class="mt-4"> Made with ❤️ <span class="text-success me-me"> <i>Adetutu</i></span> </p> -->
+       <p>Handcrafted by me ©️ <span class="text-success me-me"> <i>Adetutu</i></span> </p>
         </footer>
         </div>
   </section>
@@ -508,9 +509,6 @@ padding: .3rem 2.5rem .3rem 2.5rem;
 
 }
 
-.row-all{
-text-aign: justify;
-}
 
 .text-text{
 font-size: 1.3rem;
@@ -590,8 +588,9 @@ color:rgb(250, 237, 214) ;
 .my-details, .details{
 font-size: 1.5rem;
 line-height: 1.5;
-
 }
+
+
 
 #aa{
  
