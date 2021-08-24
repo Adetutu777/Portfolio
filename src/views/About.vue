@@ -283,7 +283,7 @@
                   
                   </div>
             <p class="text-white my-details pt-4">
-            Want to know more about me? <br> Have an exciting  project that could use my help? <br> Drop me a  line and let's chat!</p>
+            Want to know more about me? <br> Have an exciting  project that could use my help? <br> Drop me a  message and let's chat!</p>
           </div>
           <div class="col-md-6 pt-5">
             
@@ -323,8 +323,8 @@
             </section>
         </div>
         <footer class=" myfooter text-white text-center py-1">
-       <!-- <p class="mt-4"> Made with ❤️ <span class="text-success me-me"> <i>Adetutu</i></span> </p> -->
-       <p>Handcrafted by me ©️ <span class="text-success me-me"> <i>Adetutu</i></span> </p>
+      
+       <p class="pt-3">Handcrafted by me ©️ <span class="text-success me-me"> <i>Adetutu</i></span> </p>
         </footer>
         </div>
   </section>
