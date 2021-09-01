@@ -31,10 +31,7 @@
         </div>		
 	</div>
 </nav>
-
-
   <router-view/>
-
   
   <!-- Bio -->
   <section>
@@ -43,17 +40,12 @@
             <!-- <div class="col-md-6  animate__animated animate__fadeInLeft" id="pix-first"> -->
             <div class="col-md-6 cola  animate__animated animate__fadeInLeft" id="pix-first">
               <div class="card text-white col-one">
-              
-                  
                 <h1 class="about mt-5 pb-3">
                       Hi, I'm Adetutu, a Frontend Developer
                     </h1>
-
                     <p class="details pb-3 pt-3">
-                    
                       I am a creative individual with passion for technology.  Providing solution to real life problems gives me Joy. 
                     </p>
-                  
                 <a href="#my-contact">
                     <button class="mt-4 GIT px-4 py-2 mb-5">Get in touch</button>
                   </a>
@@ -62,11 +54,7 @@
             
             <div class="col-md-6 coly pt-5 animate__animated animate__fadeInRight" id="text-sec">
               <div class="card card-pix">
-              
                   <img class="pix mx-auto " src="../../src/assets/img4.jpg" alt="Adetutu">
-              
-                  
-              
               </div>
             </div>
           </div>
@@ -79,7 +67,6 @@
               <div class="tech-wri">
                 <h2 class="know-more mb-4 can-help ">I can help you with
                 </h2>
-                 
                 </div>
               <div class="row help-row animate__animated animate__flash">
             <!-- <div class="col-md-4 animate__animated animate__bounceIn"> -->
@@ -124,8 +111,6 @@
           </div>
               </div>
     </section>
-
-
 
 <!-- Projects -->
             <section class="pb-5">
@@ -191,12 +176,11 @@
    
 <!-- Writing -->
           <section class="pt-5">
-                  <div class="container animate__pulse" id="writing" >       
-                  <div class="myicons">
-                  <span class=" pr-3 latest">Writing</span>
-                  <img class="pb-2 head-write"  src="../../src/assets/notes.svg" alt="">
-                  </div>
-
+                              <div class="container animate__pulse" id="writing" >       
+                              <div class="myicons">
+                              <span class=" pr-3 latest">Writing</span>
+                              <img class="pb-2 head-write"  src="../../src/assets/notes.svg" alt="">
+                              </div>
                               <div class="row pb-5 pt-3 mb-2 text-white">
                         <!--<div class="col-md-4 ml-2 blog-des" v-for= "data in myBlog" :key="data.id"-->
                         <div class="columny px-2 mb-r" v-for= "data in myBlog" :key="data.id">
@@ -207,7 +191,7 @@
                         </div>
                         </div>
                       </div>
-                </div>
+                      </div>
                 </section>
 
 
@@ -219,7 +203,6 @@
                           <div class="card about-me px-4 mb-3">
                           <h3 class="know-more mb-4 pt-5" >About Me</h3>
                       <p class="text-white pb-4 pt-0 my-details " >I am a meticulous web developer with BSc. degree in computer science with front end experience and passion for responsive website design. I am a firm believer in the mobile-first approach.</p>
-
                        <p class="text-white pb-4 pt-0 my-details ">I enjoy learning new things and using them to create new ideas. When am not coding you can find me listening to music, reading, Hanging out with friends or exploring nature.</p>
                           </div>
                         </div>
@@ -228,9 +211,8 @@
                             <h3 class="know-more" >Area of Interest</h3>
                     <div class="text-white my-details">
                       <p>Web development.</p>
-                      <p>Technical writing.</p>
-                      
-                    </div>
+                      <p>Technical writing.</p> 
+                           </div>
                           </div>
                         </div>
                       </div>
@@ -239,8 +221,7 @@
                     <div class="col-md-7 ">
                     <div class="card about-me px-4 mb-3">
                       <h5 class="know-more mt-4 pb-2">Current Location</h5>
-                      <p class="location pb-3 pt-1">Lagos, Nigeria</p>
-                      
+                      <p class="location pb-3 pt-1">Lagos, Nigeria</p>   
                     </div>
                     </div>
 
@@ -267,7 +248,6 @@
                       <h6 class="pt-4">Scss </h6>
                       </div>
                           </div>
-                      
                       </i> 
                       <i class="fab fa-vuejs soc-icon first-cont">
                         <div class="middle">
@@ -282,17 +262,14 @@
                       <h6 class="pt-4">Bootstrap</h6>
                       </div>
                           </div>
-                      
                       </i>
                       <i class="fab fa-js soc-icon first-cont">
                         <div class="middle">
                       <div class="mytext">
                       <h6 class="pt-4">Js </h6>
                       </div>
-                          </div>
-                      
+                          </div> 
                       </i>
-
                     </div>
                   </div>
                   </div>
@@ -304,19 +281,14 @@
             <div class="container" id="my-contact">
         <div class="row pb-5 last-sec" >
           <div class="col-md-6 contact-more">
-          
             <div class="myicons">
                   <span class=" know-more pb-4 latest pr-3 ">Want to Know More</span>
                   <img class="pb-2 head-write" src="../../src/assets/email-me.svg" alt="">
-                  
                   </div>
             <p class="text-white my-details pt-4">
             Want to know more about me? <br> Have an exciting  project that could use my help? <br> Drop me a  message and let's chat!</p>
           </div>
-          <div class="col-md-6 pt-5">
-            
-                  <div>
-                  
+          <div class="col-md-6 pt-5"><div>
                   </div>
 
 <!-- contact me section -->
