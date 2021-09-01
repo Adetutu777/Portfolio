@@ -19,7 +19,6 @@
 		
 			<a href="#writing" class="nav-item nav-link active ">Writing</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
-		<!--	<a href="file:///C:/Users/adetu/Desktop/MY%20RESUME/Adetutu's%20Resume.pdf" class="nav-item nav-link text-white">Resume</a>-->
         </div>
 		<div class="navbar-nav ml-auto social ">
       <div class="all-soc my-soc-nav mt-2 text-center">
@@ -41,7 +40,7 @@
               <div class="container contain-all">
               <div class="row">
             <!-- <div class="col-md-6  animate__animated animate__fadeInLeft" id="pix-first"> -->
-            <div class="col-md-6 cola  animate__animated animate__fadeInLeft" id="pix-first">
+            <div class="col-md-6  animate__animated animate__fadeInLeft" id="pix-first">
               <div class="card text-white col-one">
               
                   
@@ -51,7 +50,7 @@
 
                     <p class="details pb-3 pt-3">
                     
-                      I am a creative individual with passion for technology.  Providing solution to real life problems gives me Joy. 
+                      I am a creative individual with passion for technology. You can call me the web girl, I love everything about the web. Providing solution to real life problems gives me Joy. 
                     </p>
                   
                 <a href="#my-contact">
@@ -60,10 +59,10 @@
               </div>
             </div>
             
-            <div class="col-md-6 coly pt-5 animate__animated animate__fadeInRight" id="text-sec">
+            <div class="col-md-6  pt-5 animate__animated animate__fadeInRight" id="text-sec">
               <div class="card card-pix">
               
-                  <img class="pix mx-auto " src="../../src/assets/img4.jpg" alt="Adetutu">
+                  <img class="pix mx-auto " src="../../src/assets/img4.jpg" alt="Omooba">
               
                   
               
@@ -97,25 +96,25 @@
           
             <!-- <div class="col-md-4 animate__animated animate__bounceIn pt-2"> -->
              <div class="columna px-2 mb-r">
-             <div class="text-center pb-4 mt-3">
+             <div class="text-center pb-4 mt-2">
               <img class="icon-img " src="../../src/assets/internet.svg" alt="img">
               </div>
               <div class="card text-white  border-each ">
                 <div class="card-body ">
                   <h3 class="card-title know-more ">PSD to Html, Css & Js</h3>
-                  <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive on mobile phone and large screens..</p>
+                  <p class="card-text text-text">Turning graphic models to a pixel perfect web page. The converted web pages will be fully responsive.</p>
                 </div>
               </div>
             </div>
 
             <!-- <div class="col-md-4 animate__animated animate__bounceIn "> -->
-             <div class="columna px-2 " id="write">
+             <div class="columna px-2 ">
              <div class="text-center pb-4 mt-4">
               <img class="icon-img " src="../../src/assets/prototype.svg" alt="Omooba">
               </div>
               <div class="card text-white  border-each" >
                 <div class="card-body ">
-                  <h3 class="card-title know-more" >Technical Writing</h3>
+                  <h3 class="card-title know-more">Technical Writing</h3>
                   <p class="card-text text-text">My passion for web development brings out the writing skills in me, I love to write as I learn new things while coding</p>
                 </div>
               </div>
@@ -126,68 +125,85 @@
     </section>
 
 
-
-<!-- Projects -->
-            <section class="pb-5">
-              <div class="container" >
-              <div class="myicons pb-4">
+    <!-- Projects -->
+                    <section class="pb-5">
+                    
+                    <div class="container">
+                    <div class="myicons">
                       <span class=" pr-3 latest ">Projects</span>
                       <img class="pb-2 icon-img head-write"  src="../../src/assets/monitor.svg" alt="">
                       </div>
-              <div class="row animate__animated animate__pulse">
-            <!-- <div class="col-md-4 animate__animated animate__bounceIn"> -->
-             <div class="columny px-2 mb-r first-cont">
-             <a href="https://cryptotokens.netlify.app/" target="_blank">
-            <img class="myImg"
+
+                    <div class="row animate__animated animate__pulse">
+      <!-- <div class="col-md-4 pt-2 columny"> -->
+      <!-- <div class="col-md-4 pt-2 "> -->
+      <div class="columny px-2 mb-r">
+        <div clas="card">
+        <div class="card-body">
+        <a class="proj-img" href="https://cryptotokens.netlify.app/" target="_blank">
+          <img class="myImg"
             src="../../src/assets/screen4.png" alt="project-image">
-            </a>
-                      <div class="middle">
-              <div class="mytext">
-              <h6>Top 100 cryptocurrency</h6>
+          <div class="middle">
+            <div class="mytext">
+            <h6>Top 100 cryptocurrency</h6>
             <p>A web app displaying
             the top 100 cryptocurrency coin
             </p>
             <p>Tools used: Vue.js, Bootstrap</p>
+            </div>
+                      </div>
+                      </a>
+                    </div>
+                  </div>
+                  </div>
 
-              </div>
-            </div>
-            </div>
-          
-            <!-- <div class="col-md-4 animate__animated animate__bounceIn pt-2"> -->
-             <div class="columna first-cont px-2 mb-r pt-4">
-             <a href="https://adetutu777.github.io/budget-app/" target="_blank">
-              <img class="myImg"
-            src="../../src/assets/budgetdisp.png" alt="project-image">
-            </a>
-             <div class="middle">
-              <div class="mytext">
-              <h6>Budget app</h6>
-            <p>A web app to plan your budget expenses
-            </p>
-            <p>Tools used: Html, BulmaCss, JavaScript</p>
-              </div>
-            </div>
-            </div>
-
-            <!-- <div class="col-md-4 animate__animated animate__bounceIn "> -->
-             <div class="columna first-cont px-2 pt-4" id="write">
-             <a href="#" target="_blank">
+      <!-- <div class="col-md-4"> -->
+      <div class="columna px-2 mb-r">
+        <div clas="card">
+        <div class="card-body">
+        <a class="proj-img" href="https://adetutu777.github.io/budget-app/" target="_blank">
+          <div class="mt-2 ">
             <img class="myImg"
-            src="../../src/assets/new.jpg" alt="project-image">
-            </a>
-             <div class="middle">
-              <div class="mytext">
-              <h6>Budget app</h6>
+            src="../../src/assets/budgetdisp.png" alt="project-image">
+          </div>
+          <!-- <img class="myImg" stye="height:100%"
+            src="../../src/assets/budget.png" alt="project-image"> -->
+          <div class="middle">
+            <div class="mytext">
+            <h6>Budget app</h6>
             <p>A web app to plan your budget expenses
             </p>
-            <p>Tools used: Html, BulmaCss, JavaScript</p>
-              </div>
+            <p>Tools used:Html, BulmaCss, JavaScript</p>
             </div>
-            </div>   
-          </div>
-              </div>
-    </section>              
+                      </div>
+                      </a>
+        </div>
+      </div>
+      </div>
+      <!-- <div class="col-md-4"> -->
+      <div class="columna px-2 ">
+        <div clas="card">
+        <div class="card-body">
+        <a class="proj-img" href="#" target="_blank">
+        <div class="mt-2">
+          <img class="myImg"
+            src="../../src/assets/bookmark.png" alt="project-image">
+            </div>
+          <div class="middle">
+            <div class="mytext">
+            <h6>A challenge from frontend Mentor</h6>
+            <p>Tools used: Html, TailwindCss & JavaScript</p>
+            </div>
+                      </div>
+                      </a>
+        </div>
+      </div>
+      </div>
 
+              </div>
+
+                    </div>
+                    </section>  
    
 <!-- Writing -->
           <section class="pt-5">
@@ -198,8 +214,7 @@
                   </div>
 
                               <div class="row pb-5 pt-3 mb-2 text-white">
-                        <!--<div class="col-md-4 ml-2 blog-des" v-for= "data in myBlog" :key="data.id"-->
-                        <div class="columny px-2 mb-r" v-for= "data in myBlog" :key="data.id">
+                        <div class="col-md-3 ml-2 blog-des" v-for= "data in myBlog" :key="data.id">
                           <div class="cad about-me pb-3" >  
                           <a class="text-decoration-none" :href="data.url" target="_blank">
                           <img class="img-img w-100" :src="data.social_image" alt="image">
@@ -212,10 +227,10 @@
 
 
 <!-- About me -->
-        <section class="">
+        <section>
                   <div class="container pt-5  about-me-sect" id="about-about">
                               <div class="row px-1">
-                        <div class="col-md-7">
+                        <div class="col-md-8">
                           <div class="card about-me px-4 mb-3">
                           <h3 class="know-more mb-4 pt-5" >About Me</h3>
                       <p class="text-white pb-4 pt-0 my-details " >I am a meticulous web developer with BSc. degree in computer science with front end experience and passion for responsive website design. I am a firm believer in the mobile-first approach.</p>
@@ -223,9 +238,9 @@
                        <p class="text-white pb-4 pt-0 my-details ">I enjoy learning new things and using them to create new ideas. When am not coding you can find me listening to music, reading, Hanging out with friends or exploring nature.</p>
                           </div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                           <div class="cad about-me px-4 pt-5 pb-3 mb-3" >
-                            <h3 class="know-more" >Area of Interest</h3>
+                            <h3 class="know-more mt-0 pb-4">Projects and opportunities am interested in</h3>
                     <div class="text-white my-details">
                       <p>Web development.</p>
                       <p>Technical writing.</p>
@@ -236,62 +251,22 @@
                       </div>
 
                   <div class="row pt-3 pb-5 px-1 row-all">
-                    <div class="col-md-7 ">
+                    <div class="col-md-8 ">
                     <div class="card about-me px-4 mb-3">
                       <h5 class="know-more mt-4 pb-2">Current Location</h5>
                       <p class="location pb-3 pt-1">Lagos, Nigeria</p>
-                      
                     </div>
                     </div>
 
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                       <div class="px-4 py-2 mt-0 " id="aa">
                       <h5 class="know-more mt-3 pb-2 ">Favourite Tools</h5>
-                      <i class="fab fa-html5 soc-icon first-cont pb-4">
-                              <div class="middle">
-                      <div class="mytext">
-                      <h6 class="pt-3">Html5 </h6>
-                      </div>
-                          </div>
-                          </i>
-                      <i class="fab fa-css3 soc-icon first-cont" >
-                        <div class="middle">
-                      <div class="mytext">
-                      <h6 class="pt-4">Css3 </h6>
-                      </div>
-                          </div>
-                      </i>
-                      <i class="fab fa-sass soc-icon first-cont">
-                        <div class="middle">
-                      <div class="mytext">
-                      <h6 class="pt-4">Scss </h6>
-                      </div>
-                          </div>
-                      
-                      </i> 
-                      <i class="fab fa-vuejs soc-icon first-cont">
-                        <div class="middle">
-                      <div class="mytext">
-                      <h6 class="pt-4">Vue.js </h6>
-                      </div>
-                          </div>
-                      </i>
-                      <i class="fab fa-bootstrap soc-icon first-cont">
-                        <div class="middle">
-                      <div class="mytext">
-                      <h6 class="pt-4">Bootstrap</h6>
-                      </div>
-                          </div>
-                      
-                      </i>
-                      <i class="fab fa-js soc-icon first-cont">
-                        <div class="middle">
-                      <div class="mytext">
-                      <h6 class="pt-4">Js </h6>
-                      </div>
-                          </div>
-                      
-                      </i>
+                      <i class="fab fa-html5 soc-icon pb-4"></i>
+                      <i class="fab fa-css3 soc-icon" ></i>
+                      <i class="fab fa-sass soc-icon"></i> <br>
+                      <i class="fab fa-vuejs soc-icon"></i>
+                      <i class="fab fa-bootstrap soc-icon"></i>
+                      <i class="fab fa-js soc-icon"></i>
 
                     </div>
                   </div>
@@ -300,7 +275,7 @@
 
                 </section>
 
-<section class="pt-5">
+<section>
             <div class="container" id="my-contact">
         <div class="row pb-5 last-sec" >
           <div class="col-md-6 contact-more">
@@ -356,6 +331,110 @@
         </footer>
         </div>
   </section>
+
+  <section>
+  <div class="container">
+        <div class="row">
+
+  <!-- Grid column -->
+  <div class="columny px-2 mb-r">
+
+    <!--Card-->
+    <div class="card default-color-dark">
+
+      <!--Card image-->
+      <div class="view">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+        <a href="#">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body text-center">
+        <!--Title-->
+        <h4 class="card-title white-text">Title of the news</h4>
+        <!--Text-->
+        <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas.</p>
+        <a href="#" class="btn btn-outline-white btn-md">Button</a>
+      </div>
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="columna px-2 mb-r">
+
+    <!--Card-->
+    <div class="card primary-color-dark">
+
+      <!--Card image-->
+      <div class="view">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
+        <a href="#">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body text-center">
+        <!--Title-->
+        <h4 class="card-title white-text">Title of the news</h4>
+        <!--Text-->
+        <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas.</p>
+        <a href="#" class="btn btn-outline-white btn-md">Button</a>
+      </div>
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="columna px-2">
+
+    <!--Card-->
+    <div class="card warning-color-dark">
+
+      <!--Card image-->
+      <div class="view">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
+        <a href="#">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body text-center">
+        <!--Title-->
+        <h4 class="card-title white-text">Title of the news</h4>
+        <!--Text-->
+        <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas.</p>
+        <a href="#" class="btn btn-outline-white btn-md">Button</a>
+      </div>
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+</div>
+<!-- Grid row -->
+  
+  </section>
+
 
 
 
@@ -455,9 +534,9 @@ background:#0e141b;
 background:#0e141b;
 }
 .pix{
-width: 63%;
+width: 60%;
 border-radius: 50%;
-border: 10px solid #192430;
+border: 5px solid #192430;
 
 }
 
@@ -553,6 +632,52 @@ background:none;
 padding: 2rem 0 7rem 0;
 }
 
+.myImg {
+
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: auto! important;
+	min-height: 30vh; 
+  
+
+}
+
+.middle {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+    
+  
+  }
+ 
+
+  .proj-img:hover .myImg {
+    opacity: 0.3;
+    background: rgba(0, 255, 255, 0.5);
+    
+  }
+  
+  .proj-img:hover .middle {
+    opacity: 1;
+  }
+  
+  .mytext {
+    color: white;
+    font-size: .8rem;
+    
+   
+  }
+
+ 
 
 .about{
 color:rgb(250, 237, 214) ;
@@ -571,47 +696,6 @@ font-size: 1.5rem;
 line-height: 1.5;
 }
 
-.first-cont{
-  position: relative;
-}
-
-.myImg {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
-}
-
-.middle{
-   transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
- 
-.first-cont:hover .myImg {
-  opacity: 0.3;
-}
-
-.first-cont:hover .middle {
-  opacity: 1;
-}
-  
-  .mytext {
-   background-color: transparent;
-   margin-top: 2rem;
-  color: white;
-  font-size: 13px;
- 
-  }
 
 
 #aa{
@@ -623,8 +707,7 @@ line-height: 1.5;
 .soc-icon{
   font-size: 1.5rem;
   padding: .8rem;
-  color: rgb(241, 202, 127);
-  cursor: pointer;
+  color: rgb(236, 161, 22);
 }
 
 .location{
@@ -638,11 +721,10 @@ line-height: 1.5;
 color: rgb(248, 234, 206);
 
 
-
 }
 
 .contact-more{
-  padding-top: 6rem;
+  padding-top: 8rem;
  }
  .myfooter{
   background:#2b3949
@@ -653,7 +735,45 @@ color: rgb(248, 234, 206);
 cursor: pointer;
 }
 
+ @media screen and (max-width: 480px) {
+   #pix-first{
+     order: 1;
+   }
 
+   #aa{
+    
+     margin-top: 1rem;
+   }
+
+   .last-sec{
+    
+  padding-top:5rem;
+     
+   }
+
+  
+   .all-soc{
+   display: flex;
+  justify-content: center;
+  
+
+  
+   }
+
+   .social{
+   margin: 0 auto;
+   }
+
+   .my-nav,
+   .my-soc-nav{
+   text-align: center;
+   }
+ }
+
+
+ .form-inline {
+	display: inline-block;
+}
 .navbar-header.col {
 	padding: 0 !important;
 }	
@@ -720,97 +840,42 @@ cursor: pointer;
 animation-duration: 1.5s ;
 }
 
+@media (min-width: 992px){
+	.form-inline .input-group {
+		width: 250px;
+		margin-right: 30px;
+	}
+}
+@media (max-width: 991px){
+	.form-inline {
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+	.input-group {
+		width: 100%;
+	}
+ 
+}
 .pop-up{
 border-radius: 0.3rem 1rem 0.3rem 1rem;
 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 69%);
 
 }
 
- @media screen and (max-width: 480px) {
-  
-   
-   #aa{
-    
-     margin-top: 1rem;
-   }
-
-   .last-sec{
-    
-  padding-top:5rem;
-     
-   }
-
-  
-   .all-soc{
-   display: flex;
-  justify-content: center;
-
-  
-
-  
-   }
-
-   .social{
-   margin: 0 auto;
-   
-   }
-
-   .my-nav,
-   .my-soc-nav{
-   text-align: center;
-   }
- }
-
-
-
 @media (max-width: 767px) {
     .columna,
     .columny {
         width: 100%;
-        
     }
-
-     #pix-first{
-     order: 1;
-   }
-
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
-    .columna {
-        width: 100%;
-    }
+    .columna,
     .columny {
         width: 100%;
+        margin: 0 1.5rem 0 1.5rem;
     }
-
-    #write{
-      margin: 0 auto;
-    }
-
-     .cola,
-    .coly{
-      width: 100%;
-      
-    }
-
-    .coly{
-      margin-top: 7rem;
     
-    }
-    .pix{
-     width: 90%;
-    }
-
-    .contact-more{
-     
-       padding-top: 5rem;
-    }
-
-    
-    
-
-  
 }
 
 
@@ -820,7 +885,6 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 69%);
         width: 33%;
     }
 }
-
 
 </style>
 
