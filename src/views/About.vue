@@ -19,7 +19,7 @@
 		
 			<a href="#writing" class="nav-item nav-link active ">Writing</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
-		<!--	<a href="file:///C:/Users/adetu/Desktop/MY%20RESUME/Adetutu's%20Resume.pdf" class="nav-item nav-link text-white">Resume</a>-->
+			<a href="https://drive.google.com/file/d/1tgCg4BmJDDLzrvPiQHGZMjGwZ5drJ4i6/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a>
         </div>
 		<div class="navbar-nav ml-auto social ">
       <div class="all-soc my-soc-nav mt-2 text-center">
@@ -38,7 +38,7 @@
               <div class="container contain-all">
               <div class="row">
             <!-- <div class="col-md-6  animate__animated animate__fadeInLeft" id="pix-first"> -->
-            <div class="col-md-6 cola  animate__animated animate__fadeInLeft" id="pix-first">
+            <div class="col-md-6 cola pt-4  animate__animated animate__fadeInLeft" id="pix-first">
               <div class="card text-white col-one">
                 <h1 class="about mt-5 pb-3">
                       Hi, I'm Adetutu, a Frontend Developer
@@ -47,7 +47,7 @@
                       I am a creative individual with passion for technology.  Providing solution to real life problems gives me Joy. 
                     </p>
                 <a href="#my-contact">
-                    <button class="mt-4 GIT px-4 py-2 mb-5">Get in touch</button>
+                    <button class="mt-3 GIT px-4 py-2 mb-3">Get in touch</button>
                   </a>
               </div>
             </div>
@@ -184,10 +184,10 @@
                               <div class="row pb-5 pt-3 mb-2 text-white">
                         <!--<div class="col-md-4 ml-2 blog-des" v-for= "data in myBlog" :key="data.id"-->
                         <div class="columny px-2 mb-r" v-for= "data in myBlog" :key="data.id">
-                          <div class="cad about-me pb-3" >  
+                          <div class="cad about-me pb-0" >  
                           <a class="text-decoration-none" :href="data.url" target="_blank">
                           <img class="img-img w-100" :src="data.social_image" alt="image">
-                          <p class="text-center text-white" stle="text-decoration: none;">  {{data.title}} </p></a>
+                          <p class="text-center text-white size-text">  {{data.title}} </p></a>
                         </div>
                         </div>
                       </div>
@@ -406,7 +406,8 @@ export default {
     }
 
     .contain-all{
-      padding-top:4rem;
+      padding-top:2rem;
+     
     }
 
     .col-one,
@@ -421,7 +422,7 @@ export default {
     background:#0e141b;
     }
     .pix{
-    width: 63%;
+    width: 65%;
     border-radius: 50%;
     border: 12px solid #192430;
     }
@@ -444,7 +445,7 @@ export default {
 
     .latest{
       color: rgb(250, 237, 214);
-    font-size:1.9rem;
+    font-size:2.1rem;
     }
 
     .head-write {
@@ -516,6 +517,9 @@ export default {
       #aa{
         background:#0e141b; 
       border-radius: .5rem;
+      }
+      .size-text{
+      font-size: 1rem;
       }
 
       .my-details, .details{
@@ -729,6 +733,14 @@ export default {
     }
     .pix{
      width: 90%;
+    }
+
+    .latest{
+    font-size:2.5rem;
+    }
+
+    .size-text{
+    font-size: 1.6rem;
     }
 
     .contact-more{
