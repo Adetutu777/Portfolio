@@ -42,6 +42,7 @@
               <div class="card text-white col-one">
                 <h1 class="about mt-5 pb-3">
                       Hi, I'm Adetutu, a Frontend Developer
+                    <span class="dot-dot">.</span>
                     </h1>
                     <p class="details pb-3 pt-3">
                       I am a creative individual with passion for technology.  Providing solution to real life problems gives me Joy. 
@@ -70,7 +71,7 @@
                 </div>
               <div class="row help-row animate__animated animate__flash">
             <!-- <div class="col-md-4 animate__animated animate__bounceIn"> -->
-             <div class="columny px-2 mb-r">
+             <div class="columny sec-cont  px-2 mb-r">
             <div class="text-center pb-4 mt-3">
               <img class="icon-img" src="../../src/assets/web.svg" alt="image">
               </div>
@@ -83,7 +84,7 @@
             </div>
           
             <!-- <div class="col-md-4 animate__animated animate__bounceIn pt-2"> -->
-             <div class="columna px-2 mb-r">
+             <div class="columna sec-cont px-2 mb-r">
              <div class="text-center pb-4 mt-3">
               <img class="icon-img " src="../../src/assets/internet.svg" alt="img">
               </div>
@@ -96,14 +97,14 @@
             </div>
 
             <!-- <div class="col-md-4 animate__animated animate__bounceIn "> -->
-             <div class="columna px-2 " id="write">
+             <div class="columna sec-cont px-2 " id="write">
              <div class="text-center pb-4 mt-4">
               <img class="icon-img " src="../../src/assets/prototype.svg" alt="Omooba">
               </div>
               <div class="card text-white  border-each" >
                 <div class="card-body ">
                   <h3 class="card-title know-more" >Technical Writing</h3>
-                  <p class="card-text text-text">My passion for web development brings out the writing skills in me, I love to write as I learn new things while coding</p>
+                  <p class="card-text text-text">My passion for web development brings out the writing skills in me, I love to pen things down as I learn new things while coding</p>
                 </div>
               </div>
             </div>
@@ -156,7 +157,7 @@
 
             <!-- <div class="col-md-4 animate__animated animate__bounceIn "> -->
              <div class="columna first-cont px-2 pt-4" id="write">
-             <a href="#" target="_blank">
+             <a href="https://adetutu777.github.io/frontend-booking-page/" target="_blank">
             <img class="myImg"
             src="../../src/assets/new.jpg" alt="project-image">
             </a>
@@ -270,6 +271,7 @@
                       </div>
                           </div> 
                       </i>
+                    
                     </div>
                   </div>
                   </div>
@@ -414,8 +416,14 @@ export default {
     .col-two{
     background:#0e141b;
     }
+
+    .dot-dot{
+      font-size:3rem;
+       color:White;
+
+    }
     .icon-img{
-    width:15%
+    width:11%
     }
 
     .card-pix{
@@ -529,6 +537,12 @@ export default {
 
       .first-cont{
         position: relative;
+        cursor: pointer;
+
+      }
+
+      .sec-cont{
+        cursor: pointer;
       }
 
     .myImg {
