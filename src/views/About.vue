@@ -46,7 +46,7 @@
                     <span class="dot-dot">.</span>
                     </h1>
                     <p class="details pb-3 pt-3">
-                      I am a creative individual with passion for technology.  Providing solution to real life problems gives me Joy. 
+                      I am a creative individual with passion for software development.  Providing solution to real life problems gives me Joy. 
                     </p>
                 <a href="#my-contact">
                     <button class="mt-3 GIT px-4 py-2 mb-3">Get in touch</button>
