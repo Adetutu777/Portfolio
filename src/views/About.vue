@@ -19,7 +19,8 @@
 		
 			<a href="#writing" class="nav-item nav-link active ">Writing</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
-			<a href="https://drive.google.com/file/d/1tgCg4BmJDDLzrvPiQHGZMjGwZ5drJ4i6/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a>
+			<!-- <a href="https://drive.google.com/file/d/1tgCg4BmJDDLzrvPiQHGZMjGwZ5drJ4i6/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a> -->
+			<a href="https://drive.google.com/file/d/1etW7MTu2Xj-cVgYxL6ItM3DDoO8viw0O/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a>
         </div>
 		<div class="navbar-nav ml-auto social ">
       <div class="all-soc my-soc-nav mt-2 text-center">
@@ -41,7 +42,7 @@
             <div class="col-md-6 cola pt-4  animate__animated animate__fadeInLeft" id="pix-first">
               <div class="card text-white col-one">
                 <h1 class="about mt-5 pb-3">
-                      Hi, I'm Adetutu, a Frontend Developer
+                      Hi, I'm Adetutu, a Frontend Developer <span class="dot-dot">|</span>  Vue.js
                     <span class="dot-dot">.</span>
                     </h1>
                     <p class="details pb-3 pt-3">
