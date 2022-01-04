@@ -20,7 +20,7 @@
 			<a href="#writing" class="nav-item nav-link active ">Writing</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
 			<!-- <a href="https://drive.google.com/file/d/1tgCg4BmJDDLzrvPiQHGZMjGwZ5drJ4i6/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a> -->
-			<a href="https://drive.google.com/file/d/1etW7MTu2Xj-cVgYxL6ItM3DDoO8viw0O/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a>
+			<a href="https://drive.google.com/file/d/1Zd7VjICO_-pc3MFNoGGp16awwqRKMuVn/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a>
         </div>
 		<div class="navbar-nav ml-auto social ">
       <div class="all-soc my-soc-nav mt-2 text-center">
@@ -106,6 +106,7 @@
                 <div class="card-body ">
                   <h3 class="card-title know-more" >Technical Writing</h3>
                   <p class="card-text text-text">My passion for web development brings out the writing skills in me, I love to pen things down as I learn new things while coding</p>
+                <!--  <p>I am a software engineer that is interested in making the web accessible for all. I love sharing knowledge so I write about things I learn and things I need to learn.</p>-->
                 </div>
               </div>
             </div>
@@ -291,6 +292,7 @@
             <p class="text-white my-details pt-4">
             Want to know more about me? <br> Have an exciting  project that could use my help? <br> Drop me a  message and let's chat!</p>
           </div>
+         <!-- <p>Whether you have an opportunity that you wish to discuss with me, have a question, or want to say hi, my inbox is always open. Drop me a message, and I'll do my best to get back to you!</p>-->
           <div class="col-md-6 pt-5"><div>
                   </div>
 
@@ -379,7 +381,6 @@ export default {
       mesg_in_submission.value = true;
       mesg_alert_variant.value = 'pink';
       mesg_alert_msg.value = 'Sending';
-
      mesg_alert_variant.value = 'green';
      mesg_alert_msg.value = 'Message sent, Thank you.';
       // console.log(e);
@@ -421,6 +422,7 @@ export default {
     .dot-dot{
       font-size:3rem;
        color:White;
+      
 
     }
     .icon-img{
