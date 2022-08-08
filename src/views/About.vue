@@ -56,7 +56,7 @@
             
             <div class="col-md-6 coly pt-5 animate__animated animate__fadeInRight" id="text-sec">
               <div class="card card-pix">
-                  <img class="pix mx-auto " src="../../src/assets/img4.jpg" alt="Adetutu">
+                  <img class="pix mx-auto " src="../../src/assets/pix-3.jpg" alt="Adetutu">
               </div>
             </div>
           </div>
@@ -434,7 +434,7 @@ export default {
     }
     .pix{
     width: 65%;
-    border-radius: 50%;
+    border-radius: 70%;
     border: 12px solid #192430;
     }
 
