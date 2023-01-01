@@ -20,7 +20,7 @@
 			<a href="#writing" class="nav-item nav-link active ">Writing</a>
 			<a href="#my-contact" class="nav-item nav-link text-white">Contact</a>
 			<!-- <a href="https://drive.google.com/file/d/1tgCg4BmJDDLzrvPiQHGZMjGwZ5drJ4i6/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a> -->
-			<a href="https://drive.google.com/file/d/1Zd7VjICO_-pc3MFNoGGp16awwqRKMuVn/view?usp=sharing" target="_blank" class="nav-item nav-link text-white">Resume</a>
+			<a href="https://drive.google.com/file/d/1U6XD9LQ7hQjdpOpPgH10Q7Df8ZQ1V_fA/view?usp=share_link" target="_blank" class="nav-item nav-link text-white">Resume</a>
         </div>
 		<div class="navbar-nav ml-auto social ">
       <div class="all-soc my-soc-nav mt-2 text-center">
