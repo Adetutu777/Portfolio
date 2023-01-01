@@ -56,7 +56,7 @@
             
             <div class="col-md-6 coly pt-5 animate__animated animate__fadeInRight" id="text-sec">
               <div class="card card-pix">
-                  <img class="pix mx-auto " src="../../src/assets/pix-3.jpg" alt="Adetutu">
+                  <img class="pix mx-auto " src="../../src/assets/pix-3.jpg" alt="image">
               </div>
             </div>
           </div>
