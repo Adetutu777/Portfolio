@@ -79,7 +79,7 @@
               <div class="card text-white  border-each mb-3">
                 <div class="card-body ">
                   <h3 class="card-title know-more">Web Development</h3>
-                  <p class="card-text text-text"> Either it's a simple web app or a single web app, get it done with the latest tools and frameworks.to build powerful and robust apps.</p>
+                  <p class="card-text text-text"> Either it's a simple web app or a single web app, get it done with the latest tools and frameworks to build powerful and robust apps.</p>
                 </div>
               </div>
             </div>
